@@ -418,6 +418,22 @@ const Header = () => {
                       </div>
                     </div>
                     <div className="process_step">
+                      <div className="process_item-description">
+                        <div class="margin-bottom margin-small">
+                          <h3 class="heading-7">Design & Development</h3>
+                        </div>
+                        <p class="text-color-secondary text-size-medium">
+                          Our team transforms your ideas into reality, focusing
+                          on both aesthetics and functionality. We create a
+                          user-friendly design and develop it after getting
+                          approval.
+                        </p>
+                      </div>
+                      <div className="process_item-indicator">
+                        <div class="text-style-callout text-weight-medium">
+                          2
+                        </div>
+                      </div>
                       <div className="process_item-container process_item-container1111111">
                         <div className="process_item-image_container">
                           <img
@@ -430,8 +446,6 @@ const Header = () => {
                           <div></div>
                         </div>
                       </div>
-                      <div className="process_item-indicator"></div>
-                      <div className="process_item-description"></div>
                     </div>
                     <div className="process_step">
                       <div className="process_item-container process_item-container1111111">
@@ -446,8 +460,140 @@ const Header = () => {
                           <div></div>
                         </div>
                       </div>
-                      <div className="process_item-indicator"></div>
-                      <div className="process_item-description"></div>
+                      <div className="process_item-indicator">
+                        <div class="text-style-callout text-weight-medium">
+                          3
+                        </div>
+                      </div>
+                      <div className="process_item-description">
+                        <div class="margin-bottom margin-small">
+                          <h3 class="heading-7">Test & Go live</h3>
+                        </div>
+                        <p class="text-color-secondary text-size-medium">
+                          Before launch, we carefully test every aspect of the
+                          project to guarantee optimal performance. Once
+                          everything is perfected, we go live—delivering a
+                          polished final product ready to make an impact.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="package-home-process">
+          <div className="page-padding">
+            <div className="container-medium">
+              <div className="page-vertical page-xhuge">
+                <div className="margin-bottom margin-xhuge">
+                  <div className="max-width-large align-center text-align-center">
+                    <div className="div-block-124">
+                      <h2>
+                        Choose a <span>Package</span>
+                        <br></br>That suites you
+                      </h2>
+                    </div>
+                    <p className="paragraph-10">
+                      Whether you're just starting or scaling your business, we
+                      have the right plan for you. Select a pricing plan that
+                      fits your needs and get access to top-notch digital
+                      services.
+                    </p>
+                  </div>
+                </div>
+                <div className="process_container">
+                  <div className="process_wrapper">
+                    <div className="process_step">
+                      <div className="process_item-container process_item-container1111111">
+                        <div className="process_item-image_container">
+                          <img
+                            loading="lazy"
+                            className="image-63"
+                            src={serviceImageAnimation}
+                          ></img>
+                          <div className="div-block-61"></div>
+                          <div className="div-block-66"></div>
+                          <div></div>
+                        </div>
+                      </div>
+                      <div className="process_item-indicator">
+                        <div class="text-style-callout text-weight-medium">
+                          1
+                        </div>
+                      </div>
+                      <div className="process_item-description">
+                        <div class="margin-bottom margin-small">
+                          <h3 class="heading-7">Onboarding</h3>
+                        </div>
+                        <p class="text-color-secondary text-size-medium">
+                          We kick off with a comprehensive onboarding. This
+                          includes setting up a dedicated Slack workspace,
+                          sharing a detailed project plan, and aligning on goals
+                          to ensure we’re fully prepared to meet your needs.
+                        </p>
+                      </div>
+                    </div>
+                    <div className="process_step">
+                      <div className="process_item-description">
+                        <div class="margin-bottom margin-small">
+                          <h3 class="heading-7">Design & Development</h3>
+                        </div>
+                        <p class="text-color-secondary text-size-medium">
+                          Our team transforms your ideas into reality, focusing
+                          on both aesthetics and functionality. We create a
+                          user-friendly design and develop it after getting
+                          approval.
+                        </p>
+                      </div>
+                      <div className="process_item-indicator">
+                        <div class="text-style-callout text-weight-medium">
+                          2
+                        </div>
+                      </div>
+                      <div className="process_item-container process_item-container1111111">
+                        <div className="process_item-image_container">
+                          <img
+                            loading="lazy"
+                            className="image-63"
+                            src={serviceImageAnimation}
+                          ></img>
+                          <div className="div-block-61"></div>
+                          <div className="div-block-66"></div>
+                          <div></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="process_step">
+                      <div className="process_item-container process_item-container1111111">
+                        <div className="process_item-image_container">
+                          <img
+                            loading="lazy"
+                            className="image-63"
+                            src={serviceImageAnimation}
+                          ></img>
+                          <div className="div-block-61"></div>
+                          <div className="div-block-66"></div>
+                          <div></div>
+                        </div>
+                      </div>
+                      <div className="process_item-indicator">
+                        <div class="text-style-callout text-weight-medium">
+                          3
+                        </div>
+                      </div>
+                      <div className="process_item-description">
+                        <div class="margin-bottom margin-small">
+                          <h3 class="heading-7">Test & Go live</h3>
+                        </div>
+                        <p class="text-color-secondary text-size-medium">
+                          Before launch, we carefully test every aspect of the
+                          project to guarantee optimal performance. Once
+                          everything is perfected, we go live—delivering a
+                          polished final product ready to make an impact.
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>

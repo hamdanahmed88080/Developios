@@ -839,3 +839,10 @@ h3 {
 .services-content ul:last-child {
   /* padding-left: 200px; */
 }
+
+.package-home-process {
+  background-color: #090d06;
+  color: #fff;
+  padding-top: 55px;
+  position: relative;
+}
