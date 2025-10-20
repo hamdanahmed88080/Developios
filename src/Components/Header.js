@@ -505,94 +505,252 @@ const Header = () => {
                 </div>
                 <div className="process_container">
                   <div className="process_wrapper">
-                    <div className="process_step">
-                      <div className="process_item-container process_item-container1111111">
-                        <div className="process_item-image_container">
-                          <img
-                            loading="lazy"
-                            className="image-63"
-                            src={serviceImageAnimation}
-                          ></img>
-                          <div className="div-block-61"></div>
-                          <div className="div-block-66"></div>
-                          <div></div>
+                    <div className="packages">
+                      <div className="individual-package">
+                        <div className="heading">
+                          <h2>CX+CRO Audit</h2>
+                          <p>
+                            Fix critical areas of your website to improve
+                            conversions
+                          </p>
+                        </div>
+                        <div className="price">
+                          <p>$1500</p>
+                        </div>
+                        <div className="offers">
+                          <div className="offer-individual">
+                            <div></div>
+                            <p>X3 Critical Redesigned sections</p>
+                          </div>
+                          <div className="offer-individual">
+                            <div></div>
+                            <p>5+ Page Audit Report</p>
+                          </div>
+                          <div className="offer-individual">
+                            <div></div>
+                            <p>Figma Source File</p>
+                          </div>
+                          <div className="offer-individual">
+                            <div></div>
+                            <p>Loom Walkthrough</p>
+                          </div>
+                          <div className="offer-individual">
+                            <div></div>
+                            <p>Desktop + Mobile Design</p>
+                          </div>
+                          <div className="offer-individual">
+                            <div></div>
+                            <p>Onpage SEO and Copy Review</p>
+                          </div>
+                        </div>
+                        <div className="get-started">
+                          <button>Get Started</button>
                         </div>
                       </div>
-                      <div className="process_item-indicator">
-                        <div class="text-style-callout text-weight-medium">
-                          1
+                      <div className="individual-package">
+                        <div className="heading">
+                          <h2>CX+CRO Audit</h2>
+                          <p>
+                            Fix critical areas of your website to improve
+                            conversions
+                          </p>
+                        </div>
+                        <div className="price">
+                          <p>$1500</p>
+                        </div>
+                        <div className="offers">
+                          <div className="offer-individual">
+                            <div></div>
+                            <p>X3 Critical Redesigned sections</p>
+                          </div>
+                          <div className="offer-individual">
+                            <div></div>
+                            <p>5+ Page Audit Report</p>
+                          </div>
+                          <div className="offer-individual">
+                            <div></div>
+                            <p>Figma Source File</p>
+                          </div>
+                          <div className="offer-individual">
+                            <div></div>
+                            <p>Loom Walkthrough</p>
+                          </div>
+                          <div className="offer-individual">
+                            <div></div>
+                            <p>Desktop + Mobile Design</p>
+                          </div>
+                          <div className="offer-individual">
+                            <div></div>
+                            <p>Onpage SEO and Copy Review</p>
+                          </div>
+                        </div>
+                        <div className="get-started">
+                          <button>Get Started</button>
                         </div>
                       </div>
-                      <div className="process_item-description">
-                        <div class="margin-bottom margin-small">
-                          <h3 class="heading-7">Onboarding</h3>
+                      <div className="individual-package">
+                        <div className="heading">
+                          <h2>CX+CRO Audit</h2>
+                          <p>
+                            Fix critical areas of your website to improve
+                            conversions
+                          </p>
                         </div>
-                        <p class="text-color-secondary text-size-medium">
-                          We kick off with a comprehensive onboarding. This
-                          includes setting up a dedicated Slack workspace,
-                          sharing a detailed project plan, and aligning on goals
-                          to ensure we’re fully prepared to meet your needs.
-                        </p>
-                      </div>
-                    </div>
-                    <div className="process_step">
-                      <div className="process_item-description">
-                        <div class="margin-bottom margin-small">
-                          <h3 class="heading-7">Design & Development</h3>
+                        <div className="price">
+                          <p>$1500</p>
                         </div>
-                        <p class="text-color-secondary text-size-medium">
-                          Our team transforms your ideas into reality, focusing
-                          on both aesthetics and functionality. We create a
-                          user-friendly design and develop it after getting
-                          approval.
-                        </p>
-                      </div>
-                      <div className="process_item-indicator">
-                        <div class="text-style-callout text-weight-medium">
-                          2
+                        <div className="offers">
+                          <div className="offer-individual">
+                            <div></div>
+                            <p>X3 Critical Redesigned sections</p>
+                          </div>
+                          <div className="offer-individual">
+                            <div></div>
+                            <p>5+ Page Audit Report</p>
+                          </div>
+                          <div className="offer-individual">
+                            <div></div>
+                            <p>Figma Source File</p>
+                          </div>
+                          <div className="offer-individual">
+                            <div></div>
+                            <p>Loom Walkthrough</p>
+                          </div>
+                          <div className="offer-individual">
+                            <div></div>
+                            <p>Desktop + Mobile Design</p>
+                          </div>
+                          <div className="offer-individual">
+                            <div></div>
+                            <p>Onpage SEO and Copy Review</p>
+                          </div>
                         </div>
-                      </div>
-                      <div className="process_item-container process_item-container1111111">
-                        <div className="process_item-image_container">
-                          <img
-                            loading="lazy"
-                            className="image-63"
-                            src={serviceImageAnimation}
-                          ></img>
-                          <div className="div-block-61"></div>
-                          <div className="div-block-66"></div>
-                          <div></div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="process_step">
-                      <div className="process_item-container process_item-container1111111">
-                        <div className="process_item-image_container">
-                          <img
-                            loading="lazy"
-                            className="image-63"
-                            src={serviceImageAnimation}
-                          ></img>
-                          <div className="div-block-61"></div>
-                          <div className="div-block-66"></div>
-                          <div></div>
+                        <div className="get-started">
+                          <button>Get Started</button>
                         </div>
                       </div>
-                      <div className="process_item-indicator">
-                        <div class="text-style-callout text-weight-medium">
-                          3
+                      <div className="individual-package">
+                        <div className="heading">
+                          <h2>CX+CRO Audit</h2>
+                          <p>
+                            Fix critical areas of your website to improve
+                            conversions
+                          </p>
+                        </div>
+                        <div className="price">
+                          <p>$1500</p>
+                        </div>
+                        <div className="offers">
+                          <div className="offer-individual">
+                            <div></div>
+                            <p>X3 Critical Redesigned sections</p>
+                          </div>
+                          <div className="offer-individual">
+                            <div></div>
+                            <p>5+ Page Audit Report</p>
+                          </div>
+                          <div className="offer-individual">
+                            <div></div>
+                            <p>Figma Source File</p>
+                          </div>
+                          <div className="offer-individual">
+                            <div></div>
+                            <p>Loom Walkthrough</p>
+                          </div>
+                          <div className="offer-individual">
+                            <div></div>
+                            <p>Desktop + Mobile Design</p>
+                          </div>
+                          <div className="offer-individual">
+                            <div></div>
+                            <p>Onpage SEO and Copy Review</p>
+                          </div>
+                        </div>
+                        <div className="get-started">
+                          <button>Get Started</button>
                         </div>
                       </div>
-                      <div className="process_item-description">
-                        <div class="margin-bottom margin-small">
-                          <h3 class="heading-7">Test & Go live</h3>
+                      <div className="individual-package">
+                        <div className="heading">
+                          <h2>CX+CRO Audit</h2>
+                          <p>
+                            Fix critical areas of your website to improve
+                            conversions
+                          </p>
                         </div>
-                        <p class="text-color-secondary text-size-medium">
-                          Before launch, we carefully test every aspect of the
-                          project to guarantee optimal performance. Once
-                          everything is perfected, we go live—delivering a
-                          polished final product ready to make an impact.
-                        </p>
+                        <div className="price">
+                          <p>$1500</p>
+                        </div>
+                        <div className="offers">
+                          <div className="offer-individual">
+                            <div></div>
+                            <p>X3 Critical Redesigned sections</p>
+                          </div>
+                          <div className="offer-individual">
+                            <div></div>
+                            <p>5+ Page Audit Report</p>
+                          </div>
+                          <div className="offer-individual">
+                            <div></div>
+                            <p>Figma Source File</p>
+                          </div>
+                          <div className="offer-individual">
+                            <div></div>
+                            <p>Loom Walkthrough</p>
+                          </div>
+                          <div className="offer-individual">
+                            <div></div>
+                            <p>Desktop + Mobile Design</p>
+                          </div>
+                          <div className="offer-individual">
+                            <div></div>
+                            <p>Onpage SEO and Copy Review</p>
+                          </div>
+                        </div>
+                        <div className="get-started">
+                          <button>Get Started</button>
+                        </div>
+                      </div>
+                      <div className="individual-package">
+                        <div className="heading">
+                          <h2>CX+CRO Audit</h2>
+                          <p>
+                            Fix critical areas of your website to improve
+                            conversions
+                          </p>
+                        </div>
+                        <div className="price">
+                          <p>$1500</p>
+                        </div>
+                        <div className="offers">
+                          <div className="offer-individual">
+                            <div></div>
+                            <p>X3 Critical Redesigned sections</p>
+                          </div>
+                          <div className="offer-individual">
+                            <div></div>
+                            <p>5+ Page Audit Report</p>
+                          </div>
+                          <div className="offer-individual">
+                            <div></div>
+                            <p>Figma Source File</p>
+                          </div>
+                          <div className="offer-individual">
+                            <div></div>
+                            <p>Loom Walkthrough</p>
+                          </div>
+                          <div className="offer-individual">
+                            <div></div>
+                            <p>Desktop + Mobile Design</p>
+                          </div>
+                          <div className="offer-individual">
+                            <div></div>
+                            <p>Onpage SEO and Copy Review</p>
+                          </div>
+                        </div>
+                        <div className="get-started">
+                          <button>Get Started</button>
+                        </div>
                       </div>
                     </div>
                   </div>
