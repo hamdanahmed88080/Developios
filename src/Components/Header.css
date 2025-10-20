@@ -948,3 +948,86 @@ h3 {
   border: 0;
   cursor: pointer;
 }
+
+.faq {
+  background-color: black;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.faq .container-div {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.faq-mamin-div {
+  display: grid;
+  grid-template-columns: 0.7fr 1fr;
+  grid-template-rows: auto;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  grid-auto-columns: 1fr;
+}
+
+.faq-inner-1 {
+  text-align: left;
+}
+
+#faq-heading {
+  font-family: Anton, sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 77px;
+  margin-top: 20px;
+  text-align: left;
+}
+
+#paragraph11 {
+  text-align: left;
+}
+
+#faq-paragraph-heading {
+  text-align: left;
+  color: #cecfce;
+}
+
+.faq-inner-3 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.lynx-block-faq {
+  display: flex;
+  /* color: white; */
+  grid-row-gap: 15px;
+  flex-direction: column;
+  width: 95%;
+  max-width: 840px;
+}
+
+.lynx-accordion-item {
+  border-bottom: 2px solid #2f471b;
+}
+
+.lynx-accordion-header {
+  cursor: pointer;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  display: flex;
+}
+
+.lynx-heading-accordion {
+  color: white;
+  max-width: 487px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 10px;
+  font-family: DM Sans, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 132%;
+}

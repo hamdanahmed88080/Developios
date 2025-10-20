@@ -483,6 +483,7 @@ const Header = () => {
             </div>
           </div>
         </div>
+        {/* New Section */}
         <div className="package-home-process">
           <div className="page-padding">
             <div className="container-medium">
@@ -753,6 +754,105 @@ const Header = () => {
                         </div>
                       </div>
                     </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* New Section */}
+        <div className="section-home-process">
+          <div className="page-padding">
+            <div className="container-medium">
+              <div className="page-vertical page-xhuge">
+                <div className="margin-bottom margin-xhuge">
+                  <div className="max-width-large align-center text-align-center">
+                    <div className="div-block-124">
+                      <h2>
+                        What Our <span>Clients</span>
+                        <br></br>Are Saying
+                      </h2>
+                    </div>
+                    <p className="paragraph-10">
+                      See how we've helped our clients achieve success with our
+                      expertise, dedication, and tailored solutions.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* New Section */}
+        <div className="faq">
+          <div className="container-div">
+            <div className="faq-mamin-div">
+              <div className="faq-inner-1">
+                <div className="div-block-124">
+                  <h2 id="faq-heading">
+                    Frequently Asked
+                    <br></br>
+                    <span>Questions</span>
+                  </h2>
+                </div>
+                <p className="paragraph-10" id="faq-paragraph-heading">
+                  Got questions? We've got answers! Explore our FAQs to find
+                  solutions to common queries. contact us at<br></br>
+                  sales@developios.com if you need to ask something specific
+                  about your project.
+                </p>
+              </div>
+              <div className="faq-inner-3">
+                <div className="lynx-block-faq">
+                  <div className="lynx-accordion-item">
+                    <div className="lynx-accordion-header">
+                      <h3 className="lynx-heading-accordion">
+                        How does the process look like?
+                      </h3>
+                    </div>
+                    <div className="lynx-accordion-content"></div>
+                  </div>
+                  <div className="lynx-accordion-item">
+                    <div className="lynx-accordion-header">
+                      <h3 className="lynx-heading-accordion">
+                        What’s included in your UX CRO Audit?
+                      </h3>
+                    </div>
+                    <div className="lynx-accordion-content"></div>
+                  </div>
+                  <div className="lynx-accordion-item">
+                    <div className="lynx-accordion-header">
+                      <h3 className="lynx-heading-accordion">
+                        How long does it take to build a custom website or SaaS
+                        platform?
+                      </h3>
+                    </div>
+                    <div className="lynx-accordion-content"></div>
+                  </div>
+                  <div className="lynx-accordion-item">
+                    <div className="lynx-accordion-header">
+                      <h3 className="lynx-heading-accordion">
+                        Do you offer support for eCommerce development after
+                        launch?
+                      </h3>
+                    </div>
+                    <div className="lynx-accordion-content"></div>
+                  </div>
+                  <div className="lynx-accordion-item">
+                    <div className="lynx-accordion-header">
+                      <h3 className="lynx-heading-accordion">
+                        What platforms do you work with for web development?
+                      </h3>
+                    </div>
+                    <div className="lynx-accordion-content"></div>
+                  </div>
+                  <div className="lynx-accordion-item">
+                    <div className="lynx-accordion-header">
+                      <h3 className="lynx-heading-accordion">
+                        How many revisions do I get?
+                      </h3>
+                    </div>
+                    <div className="lynx-accordion-content"></div>
                   </div>
                 </div>
               </div>
