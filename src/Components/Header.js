@@ -859,6 +859,157 @@ const Header = () => {
             </div>
           </div>
         </div>
+        {/* New Section */}
+        <div className="section-9">
+          <div className="w-layout-blockcontainer container-4 w-container">
+            <div className="div-block-75">
+              <div className="div-block-76">
+                <h2>Refer and Earn Commision</h2>
+                <p>
+                  Earn up to 10% commission on every successful referral. Help
+                  businesses grow with our services and get rewarded for it!
+                </p>
+                <a className="link-block-2 w-inline-block">
+                  <p>Contact Us</p>
+                </a>
+              </div>
+              <div className="div-block-79">
+                <div className="div-block-86"></div>
+                <div className="div-block-80">
+                  <img
+                    className="image-71 _71-2"
+                    src="https://cdn.prod.website-files.com/65c7568517fcb5339e36e278/670770f7582f42c3fcef8e42_one-hundred-dollar-bill-free-png%20(1)%20-%20Copy.webp"
+                  ></img>
+                  <img
+                    className="image-71 _71-3"
+                    src="https://cdn.prod.website-files.com/65c7568517fcb5339e36e278/670770f7582f42c3fcef8e42_one-hundred-dollar-bill-free-png%20(1)%20-%20Copy.webp"
+                  ></img>
+                  <img
+                    className="image-71 _71-4"
+                    src="https://cdn.prod.website-files.com/65c7568517fcb5339e36e278/670770f7582f42c3fcef8e42_one-hundred-dollar-bill-free-png%20(1)%20-%20Copy.webp"
+                  ></img>
+                  <img
+                    className="image-71 _71-5"
+                    src="https://cdn.prod.website-files.com/65c7568517fcb5339e36e278/670770f7582f42c3fcef8e42_one-hundred-dollar-bill-free-png%20(1)%20-%20Copy.webp"
+                  ></img>
+                  <img
+                    className="image-71 _71-6"
+                    src="https://cdn.prod.website-files.com/65c7568517fcb5339e36e278/670770f7582f42c3fcef8e42_one-hundred-dollar-bill-free-png%20(1)%20-%20Copy.webp"
+                  ></img>
+                  <img
+                    className="image-71 _71-7"
+                    src="https://cdn.prod.website-files.com/65c7568517fcb5339e36e278/670770f7582f42c3fcef8e42_one-hundred-dollar-bill-free-png%20(1)%20-%20Copy.webp"
+                  ></img>
+                  <img
+                    className="image-71 _71-8"
+                    src="https://cdn.prod.website-files.com/65c7568517fcb5339e36e278/670770f7582f42c3fcef8e42_one-hundred-dollar-bill-free-png%20(1)%20-%20Copy.webp"
+                  ></img>
+                  <img
+                    className="image-71 _71-9"
+                    src="https://cdn.prod.website-files.com/65c7568517fcb5339e36e278/670770f7582f42c3fcef8e42_one-hundred-dollar-bill-free-png%20(1)%20-%20Copy.webp"
+                  ></img>
+                </div>
+                <div className="div-block-89">
+                  <div className="div-block-90">
+                    <div className="div-block-91">
+                      <img
+                        className=""
+                        src="https://cdn.prod.website-files.com/65c7568517fcb5339e36e278/675abaa3d0738a7f6b9b34a9_mobile_mockup.webp"
+                      ></img>
+                      <img
+                        src="https://cdn.prod.website-files.com/65c7568517fcb5339e36e278/67079bddd055c5e98db19c76_1.svg"
+                        className="image-75"
+                      ></img>
+                      <img
+                        src="https://cdn.prod.website-files.com/65c7568517fcb5339e36e278/67079bddd055c5e98db19c76_1.svg"
+                        className="image-75 _75-2"
+                      ></img>
+                      <img
+                        src="https://cdn.prod.website-files.com/65c7568517fcb5339e36e278/67079bddd055c5e98db19c76_1.svg"
+                        className="image-75 _75-3"
+                      ></img>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <img
+                src="https://cdn.prod.website-files.com/65c7568517fcb5339e36e278/67076c7d079f7e9ef21c7f18_leaves%20(3).svg"
+                className="image-66"
+              ></img>
+            </div>
+          </div>
+        </div>
+
+        {/* New Section  */}
+
+        <div className="padding-section">
+          <div className="w-layout-blockcontainer main-container w-container">
+            <div className="logo-main-div">
+              <div className="div-block-112">
+                <a className="w-inline-block">
+                  <img src="https://cdn.prod.website-files.com/65c7568517fcb5339e36e278/670796018369cc822f08c1b9_logo%20(3).svg"></img>
+                </a>
+              </div>
+              <div className="main-link-div">
+                <div className="div-block-106">
+                  <a className="footer-link">Home</a>
+                  <a className="footer-link">portfolio</a>
+                  <a className="footer-link">Services</a>
+                </div>
+                <div className="div-block-107">
+                  <a className="footer-link">Testimonials</a>
+                  <a className="footer-link">Pricing</a>
+                  <a className="footer-link">Careers</a>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div className="div-block-84">
+                <a className="footer-link">sales@developios.com</a>
+                <a className="footer-link email-ft coll">+923215833822</a>
+              </div>
+              <div className="div-block-83">
+                <div className="div-block-118">
+                  <a className="link-block-25 w-inline-block">
+                    <img
+                      className="image-98"
+                      src="https://cdn.prod.website-files.com/65c7568517fcb5339e36e278/67333631b95147a1fced2337_fiverr-2%201.svg"
+                    ></img>
+                  </a>
+                  <a className="link-block-26 w-inline-block">
+                    <img
+                      className="image-99"
+                      src="https://cdn.prod.website-files.com/65c7568517fcb5339e36e278/673336734cd2ee3abb52c391_upwork%201.svg"
+                    ></img>
+                  </a>
+                  <a className="link-block-27 w-inline-block">
+                    <img
+                      className="image-100"
+                      src="https://cdn.prod.website-files.com/65c7568517fcb5339e36e278/673336912d534dd54d3a2292_Frame%202121449735.svg"
+                    ></img>
+                  </a>
+                  <a className="link-block-28 w-inline-block">
+                    <img
+                      className="image-101"
+                      src="https://cdn.prod.website-files.com/65c7568517fcb5339e36e278/673336ae394ede6c399ad4bd_wise-1%201.svg"
+                    ></img>
+                  </a>
+                </div>
+                <div className="div-block-85">
+                  <p className="paragraph-20">© 2024 Copyright By </p>
+                  <a className="link-2">
+                    <span className="text-span-2">Developios</span>
+                  </a>
+                </div>
+                <div className="div-block-92">
+                  <a className="link-block-3 w-inline-block">
+                    <p className="heading-21"></p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
