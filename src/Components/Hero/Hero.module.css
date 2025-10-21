@@ -1,0 +1,141 @@
+.heroDiv {
+  margin-bottom: 50px;
+}
+
+.heroMainHeading {
+  font-family: Anton, sans-serif;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 87px;
+  text-align: center;
+  color: white;
+  width: auto;
+  margin: 200px;
+  margin-top: 100px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.heroMainHeading span {
+  color: #a9ff5d;
+}
+
+.heroSubHeading {
+  /* background-color: blue; */
+  margin-bottom: 50px;
+  margin: 220px;
+  margin-top: 30px;
+  margin-bottom: 35px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #cecfce;
+  align-items: center;
+  text-align: center;
+}
+
+.heroButtons {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+#heroButton1 {
+  padding: 20px;
+  background-color: #a9ff5d;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+#heroButton2 {
+  padding: 20px;
+  background-color: #0000;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+#heroButton3 p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Inter, sans-serif;
+}
+
+#heroButton1 p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Inter, sans-serif;
+  color: black;
+}
+
+#heroButton2 p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Inter, sans-serif;
+  color: white;
+}
+
+.heroFreelanceLinks {
+  margin-top: 0;
+  color: white;
+  margin-top: 40px;
+  /* align-items: center; */
+  text-align: center;
+}
+
+.heroLinks {
+  display: inline;
+  margin-right: 10px;
+}
+
+.heroFreelanceLinks img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  height: auto;
+}
+
+.heroSocialSidebar {
+  position: absolute;
+  top: 100px;
+  right: 20px; /* distance from right */
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  z-index: 1000;
+  background-color: #1721;
+  border-radius: 50px;
+  width: auto;
+  height: auto;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  inset: 350px 1% auto auto;
+}
+
+.heroSocialSidebar a {
+  width: 45px;
+  height: 45px;
+  background: #000;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.socialSidebar a:hover {
+  background: #1db954; /* hover effect (Spotify green for example) */
+  transform: scale(1.1);
+}
+
+.heroSocialcons {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}

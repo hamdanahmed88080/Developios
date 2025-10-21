@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(
+    to right,
+    #0b0f0c,
+    #0d1a0b
+  ); /* Optional background */
+  padding: 20px;
+}
+
+.navbar {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+}
+
+.logo .bold {
+  font-weight: 700;
+}
+
+.logoIcon {
+  color: green;
+  margin: 0 4px;
+  font-size: 18px;
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.navLinks a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  font-size: 15px;
+  transition: color 0.2s ease;
+}
+
+.navLinks a:hover {
+  color: #2e7d32; /* green shade */
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdownMenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  padding: 10px 0;
+  display: none;
+  z-index: 100;
+}
+
+.dropdownMenu li {
+  padding: 8px 20px;
+  white-space: nowrap;
+}
+
+.dropdownMenu li a {
+  color: #000;
+  font-weight: 400;
+}
+
+.dropdown:hover .dropdownMenu {
+  display: block;
+}
+
+.arrow {
+  font-size: 10px;
+  margin-left: 5px;
+}
+
+.ctaButton a {
+  background-color: #1c1c1c;
+  color: white;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: background-color 0.3s ease;
+}
+
+.ctaButton a:hover {
+  background-color: #333;
+}
