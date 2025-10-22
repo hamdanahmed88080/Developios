@@ -25,14 +25,7 @@ import "./Header.css";
 const Header = () => {
   return (
     <div>
-      <div
-        className="services-banner"
-        style={
-          {
-            // transform: "translate3d(200px,0,0)",
-          }
-        }
-      >
+      <div className="services-banner">
         <ul>
           <li>
             <img src={servicesImageLeasabites}></img>

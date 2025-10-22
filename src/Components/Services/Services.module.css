@@ -1,0 +1,168 @@
+/* .services {
+  margin: 50px 500px;
+}
+
+.services ul {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  border-radius: 5px;
+  border: 1px solid #8afa7b;
+  padding: 3px;
+  margin: 20px auto;
+  width: 500px;
+  text-align: cemter;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.services ul:hover {
+}
+
+.services ul li {
+  color: white;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.services ul li:hover {
+  background-color: #8afa7b;
+  border-radius: 5px;
+}
+
+.services ul li a {
+  text-decoration: none;
+  color: white;
+} */
+
+/* .services ul li a:active {
+  background-color: green;
+  border-radius: 5px;
+  padding: 10px;
+} */
+
+/* .hero-social-sidebar {
+  background-color: rgb(36, 34, 34);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20px;
+} */
+
+.servicesBanner ul {
+  display: flex;
+  overflow: hidden;
+}
+
+.servicesBanner ul li img {
+  height: 400px;
+  padding-right: 20px;
+}
+
+.servicesHp {
+  margin: 40px;
+  padding: 30px;
+}
+
+.servicesInnerDiv {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.servicesHp ul {
+  color: white;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.servicesHpHeading {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Anton, sans-serif;
+  font-size: 96px;
+  font-weight: 400;
+  line-height: 102px;
+}
+
+.servicesHpPara {
+  padding-left: 150px;
+  color: #cecfce;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 25px;
+}
+
+.servicesSection {
+  display: grid;
+  margin: auto 0;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.serviceDiv {
+  box-sizing: content-box;
+  background-color: white;
+  /* margin-right: 20px; */
+  /* margin-bottom: 20px; */
+  margin: 20px;
+  padding: 20px;
+  width: 350px;
+  /* height: 100%; */
+  border-radius: 10px;
+  /* display: grid; */
+}
+
+.serviceDiv h2 {
+  padding: 10px;
+  font-size: 30px;
+}
+
+.serviceDiv p {
+  padding: 10px;
+}
+
+.serviceDiv button,
+.serviceDiv .button-text {
+  padding: 10px;
+  /* display: inline-block; */
+  /* margin: 10px; */
+}
+
+.serviceDiv button {
+  margin: 10px;
+  /* display: block; */
+}
+
+.serviceDiv:hover {
+  background-color: #a9ff5d;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#service1 {
+  grid-row: 1;
+  grid-column: 1;
+}
+
+#service2 {
+  grid-row: 1;
+  grid-column: 2;
+}
+
+#service3 {
+  grid-row: 1;
+  grid-column: 3;
+}
+#service4 {
+  grid-row: 2;
+  grid-column: 1;
+}
+#service5 {
+  grid-row: 2;
+  grid-column: 2;
+}
+#service6 {
+  grid-row: 2;
+  grid-column: 3;
+}
