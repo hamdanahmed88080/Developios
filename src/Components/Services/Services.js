@@ -1,29 +1,9 @@
 import styles from "../Services/Services.module.css";
-import servicesImageLeasabites from "../../images/672c6741e01a986a52015586_leasebites.webp";
-import servicesImageGuriEnterprise from "../../images/672c6786b45a0a10ae7790a0_guri enterprise.webp";
-import servicesImageTalkAsia from "../../images/672c67b0b245d962f937266b_Talk Asia.webp";
-import servicesImageSsafLogistics from "../../images/672c67f0b45a0a10ae77ef57_SSAF Logistics.webp";
 import serviceImageAnimation from "../../images/service-1.webp";
 
 const Services = () => {
   return (
     <div className={styles.servicesMain}>
-      <div className={styles.servicesBanner}>
-        <ul>
-          <li>
-            <img src={servicesImageLeasabites}></img>
-          </li>
-          <li>
-            <img src={servicesImageGuriEnterprise}></img>
-          </li>
-          <li>
-            <img src={servicesImageSsafLogistics}></img>
-          </li>
-          <li>
-            <img src={servicesImageTalkAsia}></img>
-          </li>
-        </ul>
-      </div>
       <div className={styles.servicesHp}>
         <div className={styles.servicesInnerDiv}>
           <ul>

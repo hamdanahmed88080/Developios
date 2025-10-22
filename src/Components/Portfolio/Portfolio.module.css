@@ -1,0 +1,43 @@
+.portfolio {
+  margin: 50px 500px;
+}
+
+.portfolio ul {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  border-radius: 5px;
+  border: 1px solid #8afa7b;
+  padding: 3px;
+  margin: 20px auto;
+  /* width: 500px; */
+  text-align: cemter;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.portfolio ul li {
+  color: white;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.portfolio ul li:hover {
+  background-color: #8afa7b;
+  border-radius: 5px;
+}
+
+.portfolio ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.portfolioBanner ul {
+  display: flex;
+  overflow: hidden;
+}
+
+.portfolioBanner ul li img {
+  height: 400px;
+  padding-right: 20px;
+}

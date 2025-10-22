@@ -9,7 +9,8 @@ body {
   background: linear-gradient(
     to right,
     #0b0f0c,
-    #0d1a0b
+    #101d0f,
+    #090d06
   ); /* Optional background */
   padding: 20px;
 }

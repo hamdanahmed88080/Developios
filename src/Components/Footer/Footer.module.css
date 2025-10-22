@@ -1,0 +1,96 @@
+.paddingSection {
+  background-color: black;
+  margin-top: 0;
+  padding: 4.3rem 0;
+  overflow: hidden;
+}
+
+.mainContainer {
+  max-width: 1100px;
+  position: static;
+  overflow: visible;
+}
+
+.wLayoutBlockContainer {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.logoMainDiv {
+  border-bottom: 2px solid #363c30;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  display: flex;
+}
+
+.wInlineBlock {
+  max-width: 100%;
+  display: inline-block;
+}
+
+.mainLinkDiv {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.footerLink {
+  color: white;
+  margin-right: 20px;
+  font-family: DM Sans, sans-serif;
+  text-decoration: none;
+}
+
+.divBlock84 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.divBlock84 a {
+  font-size: 14px;
+  margin-right: 15px;
+  line-height: 20px;
+}
+
+.emailFt.coll {
+  font-family: DM Sans, sans-serif;
+  font-size: 18px;
+}
+
+.divBlock83 {
+  justify-content: space-between;
+  padding-top: 0;
+  display: flex;
+}
+
+.divBlock118 {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  align-items: center;
+}
+
+.divBlock85 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+}
+
+.paragraph20 {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.linkBlock25 {
+  margin-right: 20px;
+}
+.wInlineBlock {
+  max-width: 100%;
+  margin-right: 20px;
+  display: inline-block;
+}

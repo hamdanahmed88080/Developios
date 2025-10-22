@@ -1,0 +1,168 @@
+.section9 {
+  padding-top: 0;
+  height: auto;
+  padding-top: 60px;
+}
+
+.container4 {
+  max-width: 1100px;
+}
+
+.wLayoutBlockcontainer {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.divBlock75 {
+  background-color: #a9ff5d;
+  border-radius: 12px;
+  display: grid;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+  grid-template-columns: 1.75fr 1fr;
+  grid-template-rows: auto;
+  grid-auto-columns: 1fr;
+  column-gap: 16px;
+  row-gap: 16px;
+}
+
+.divBlock76 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  /* position: relative; */
+  z-index: 10;
+}
+
+.divBlock76 h2 {
+  color: black;
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-family: DM Sans, sans-serif;
+  font-size: 42px;
+  line-height: 36px;
+}
+
+.divBlock76 p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 25px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.linkBlock2 {
+  background-color: white;
+  width: 157px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 7px;
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  margin-top: 30px;
+}
+
+.linkBlock2 p {
+  color: black;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 14px;
+  /* margin-bottom: 10px; */
+}
+
+.image66 {
+  position: absolute;
+  inset: auto auto 0% 0%;
+}
+
+.divBlock79 {
+  padding: 0;
+  position: relative;
+}
+
+.divBlock80 {
+  position: absolute;
+  inset: auto 0% -2% -9%;
+  transform: rotate(1deg);
+}
+
+.image71 {
+  width: 60%;
+  position: absolute;
+}
+
+._71_2 {
+  inset: auto 0% 0%;
+  transform: rotate(-15deg);
+}
+
+._71_3 {
+  inset: auto 0% 0%;
+  transform: rotate(0deg);
+}
+._71_4 {
+  inset: auto 0% 0%;
+  transform: rotate(12deg);
+}
+._71_5 {
+  inset: auto 0% 0%;
+  transform: rotate(28deg);
+}
+._71_6 {
+  inset: auto 0% 0%;
+  transform: rotate(45deg);
+}
+
+._71_7 {
+  inset: auto 0% 0%;
+  transform: rotate(55deg);
+}
+
+._71_8 {
+  inset: auto 0% 0%;
+  transform: rotate(66deg);
+}
+
+._71_9 {
+  inset: auto 0% 0% 3%;
+  transform: rotate(72deg);
+}
+
+img {
+  vertical-align: middle;
+  max-width: 100%;
+  display: inline-block;
+}
+
+.divBlock89 {
+  height: 100%;
+}
+
+.divBlock90 {
+  width: 65%;
+  position: absolute;
+  inset: auto 11% 0% auto;
+}
+
+.divBlock91 {
+  position: relative;
+}
+
+.image75 {
+  width: 75%;
+  position: absolute;
+  inset: 36% 0 auto 12%;
+}
+
+._75_2 {
+  top: 55%;
+}
+
+._75_3 {
+  top: 75%;
+}
