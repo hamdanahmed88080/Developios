@@ -1,9 +1,71 @@
 import styles from "./WhyChooseUs.module.css";
+import { useState, useEffect, useRef } from "react";
 
 const WhyChooseUs = () => {
+  var [movingValue, setMovingValue] = useState(1);
+  var [myScrollValue, setMyScrollValue] = useState(0);
+  var divRef = useRef(null);
+  var min = 0.8;
+  var max = 1;
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setMyScrollValue(window.scrollY);
+      console.log("Scroll", myScrollValue);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  // useEffect(() => {
+  //   // const interval = setInterval(() => {}, 50);
+
+  //   const div = divRef.current;
+
+  //   const handleScroll = (event) => {
+  //     console.log("Div scrolled! scrollTop:", div.scrollTop);
+  //   };
+
+  //   window.addEventListener("scroll", () => {
+  //     console.log(window.scrollY);
+  //   });
+
+  //   console.log(window.scrollY);
+
+  //   // ✅ Add scroll event listener
+  //   div.addEventListener("scroll", handleScroll);
+
+  //   return () => {
+  //     div.removeEventListener("scroll", handleScroll);
+  //   };
+  // , []);
+
+  var onScrollingHandler = () => {
+    const div = divRef.current;
+    console.log("Scrolled");
+    div.addEventListener("scroll", () => {
+      console.log("I am scrolled", div.scrollTop);
+    });
+  };
+
+  var scale = myScrollValue / 2300;
+
   return (
     <div>
-      <div className={styles.whyChooseUs}>
+      <div
+        // ref={divRef}
+        className={styles.whyChooseUs}
+        style={{
+          transform: `translate3d(0px,0px,0px) scale3d(${scale},${scale},${scale})`,
+        }}
+        onClick={() => {
+          console.log("I am clicked");
+        }}
+        // onScroll={onScrollingHandler}
+      >
         <div className={styles.whyChooseUsContainer}>
           <div className={styles.whyChooseUsHero}>
             <h2>Why Choose Us</h2>

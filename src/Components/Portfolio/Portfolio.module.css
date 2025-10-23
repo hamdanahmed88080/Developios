@@ -1,8 +1,67 @@
 .portfolio {
+  overflow: hidden;
+}
+
+.portfolioBanner {
+  transform-style: preserve-3d;
+  /* will-change: transform;*/
+  width: 5142px;
+}
+
+.wTabPane {
+  display: block;
+}
+
+.wTabActive {
+  position: relative;
+}
+
+.portfolioHeader {
   margin: 50px 500px;
 }
 
-.portfolio ul {
+/*  */
+.tabsContent {
+  overflow: hidden;
+}
+
+.wTabContent {
+  display: block;
+  position: relative;
+}
+
+.div21 {
+  display: flex;
+  position: static;
+  width: auto;
+}
+
+.div19 {
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  row-gap: 16px;
+  column-gap: 16px;
+  display: grid;
+  position: static;
+  margin-right: 16px;
+}
+
+.div20 {
+  color: #a9fa7b;
+  border: 2px #fff;
+  border-radius: 5px;
+  width: 500px;
+  height: auto;
+}
+
+.img {
+  vertical-align: center;
+  max-width: 100%;
+  display: inline-block;
+}
+/*  */
+
+.portfolioHeader ul {
   display: flex;
   text-decoration: none;
   list-style: none;
@@ -16,23 +75,23 @@
   justify-content: space-between;
 }
 
-.portfolio ul li {
+.portfolioHeader ul li {
   color: white;
   justify-content: space-between;
   padding: 10px;
 }
 
-.portfolio ul li:hover {
+.portfolioHeader ul li:hover {
   background-color: #8afa7b;
   border-radius: 5px;
 }
 
-.portfolio ul li a {
+.portfolioHeader ul li a {
   text-decoration: none;
   color: white;
 }
 
-.portfolioBanner ul {
+/* .portfolioBanner ul {
   display: flex;
   overflow: hidden;
 }
@@ -40,4 +99,4 @@
 .portfolioBanner ul li img {
   height: 400px;
   padding-right: 20px;
-}
+} */
