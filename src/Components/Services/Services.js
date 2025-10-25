@@ -1,3 +1,5 @@
+import Service from "./Service/Service";
+
 import styles from "../Services/Services.module.css";
 import serviceImageAnimation from "../../images/service-1.webp";
 
@@ -22,77 +24,12 @@ const Services = () => {
         </div>
       </div>
       <div className={styles.servicesSection}>
-        <a>
-          <div className={styles.serviceDiv} id="service1">
-            <h2>UX CRO Edit</h2>
-            <p>
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout.0
-            </p>
-            <button></button>
-            <div className={styles.buttonText}>Learn More</div>
-          </div>
-        </a>
-        <a>
-          {" "}
-          <div className={styles.serviceDiv} id="service2">
-            <h2>UX CRO Edit</h2>
-            <p>
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout.0
-            </p>
-            <button></button>
-            <div className={styles.buttonText}>Learn More</div>
-          </div>
-        </a>
-        <a>
-          {" "}
-          <div className={styles.serviceDiv} id="service3">
-            <h2>UX CRO Edit</h2>
-            <p>
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout.0
-            </p>
-            <button></button>
-            <div className={styles.buttonText}>Learn More</div>
-          </div>
-        </a>
-        <a>
-          {" "}
-          <div className={styles.serviceDiv} id="service4">
-            <h2>UX CRO Edit</h2>
-            <p>
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout.0
-            </p>
-            <button></button>
-            <div className={styles.buttonText}>Learn More</div>
-          </div>
-        </a>
-        <a>
-          {" "}
-          <div className={styles.serviceDiv} id="service5">
-            <h2>UX CRO Edit</h2>
-            <p>
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout.0
-            </p>
-            <button></button>
-            <div className={styles.buttonText}>Learn More</div>
-          </div>
-        </a>
-        <a>
-          {" "}
-          <div className={styles.serviceDiv} id="service6">
-            <h2>UX CRO Edit</h2>
-            <p>
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout.0
-            </p>
-            <button></button>
-            <div className={styles.buttonText}>Learn More</div>
-          </div>
-        </a>
+        <Service></Service>
+        <Service></Service>
+        <Service></Service>
+        <Service></Service>
+        <Service></Service>
+        <Service></Service>
       </div>
     </div>
   );

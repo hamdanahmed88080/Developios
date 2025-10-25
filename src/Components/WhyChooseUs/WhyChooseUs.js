@@ -11,7 +11,7 @@ const WhyChooseUs = () => {
   useEffect(() => {
     const handleScroll = () => {
       setMyScrollValue(window.scrollY);
-      console.log("Scroll", myScrollValue);
+      // console.log("Scrol", window.scrollY);
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -43,15 +43,19 @@ const WhyChooseUs = () => {
   //   };
   // , []);
 
-  var onScrollingHandler = () => {
-    const div = divRef.current;
-    console.log("Scrolled");
-    div.addEventListener("scroll", () => {
-      console.log("I am scrolled", div.scrollTop);
-    });
-  };
+  // var onScrollingHandler = () => {
+  //   const div = divRef.current;
+  //   console.log("Scrolled");
+  //   div.addEventListener("scroll", () => {
+  //     console.log("I am scrolled", div.scrollTop);
+  //   });
+  // };
 
-  var scale = myScrollValue / 2300;
+  var scale = myScrollValue / 1970;
+
+  if (scale > 1) {
+    scale = 1;
+  }
 
   return (
     <div>

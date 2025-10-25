@@ -51,7 +51,7 @@ const Portfolio = () => {
           <div
             className={styles.portfolioBanner}
             style={{
-              transform: `translate3d(0px,0px,0px)`,
+              transform: `translate3d(${movingValue}px,0px,0px)`,
               scale: "1,1,1",
             }}
           >
