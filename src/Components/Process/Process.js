@@ -1,9 +1,46 @@
 import styles from "./Process.module.css";
 import serviceImageAnimation from "../../images/service-1.webp";
+import { useEffect, useState, useRef } from "react";
+
+import image_1 from "../../images/image11.svg";
+import image_2 from "../../images/image12.svg";
+import image_3 from "../../images/image13.svg";
+import image_4 from "../../images/image14.svg";
+
+// console.log(window.scrollY, "Window ScrollY");
 
 const Process = () => {
+  var divRef = useRef(0);
+  // var [processScrolled, setProcessScrolled] = useState(0);
+  var [myScrollValue, setMyScrollValue] = useState(0);
+
+  useEffect(() => {
+    const myDiv = divRef.current;
+    const handleScroll = () => {
+      var percentage = ((window.scrollY - 2500) / 900) * 100;
+      if (percentage < 0) {
+        percentage = 0;
+      } else if (percentage > 100) {
+        percentage = 100;
+      }
+      setMyScrollValue(percentage);
+      // console.log("Scrol", window.scrollY);
+    };
+    // const handleNewScroll = () => {
+    //   console.log(myDiv);
+    // };
+
+    window.addEventListener("scroll", handleScroll);
+    // myDiv.addEventListener("scroll", handleNewScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  console.log(myScrollValue);
+
   return (
-    <div>
+    <div ref={divRef}>
       <div className={styles.sectionHomeProcess}>
         <div className={styles.pagePadding}>
           <div className={styles.containerMedium}>
@@ -38,7 +75,20 @@ const Process = () => {
                           className={styles.image63}
                           src={serviceImageAnimation}
                         ></img>
-                        <div className={styles.divBlock61}></div>
+                        <div className={styles.divBlock61}>
+                          <div className={styles.divBlock63}>
+                            <img className={styles.image57} src={image_1}></img>
+                          </div>
+                          <div className={styles.divBlock62}>
+                            <img className={styles.image58} src={image_2}></img>
+                          </div>
+                          <div className={styles.divBlock64}>
+                            <img className={styles.image59} src={image_3}></img>
+                          </div>
+                          <div className={styles.divBlock65}>
+                            <img className={styles.image60} src={image_4}></img>
+                          </div>
+                        </div>
                         <div className={styles.divBlock66}></div>
                         <div></div>
                       </div>
@@ -143,6 +193,15 @@ const Process = () => {
                         polished final product ready to make an impact.
                       </p>
                     </div>
+                  </div>
+                  <div className={styles.processTimeline}>
+                    <div
+                      className={styles.processTimelineProgress}
+                      style={{
+                        willChange: "width, height",
+                        height: `100%`,
+                      }}
+                    ></div>
                   </div>
                 </div>
               </div>

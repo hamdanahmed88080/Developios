@@ -64,6 +64,24 @@
   line-height: 90px;
 }
 
+.innerDivBlock124 {
+  transform: translateY(10%);
+  transition: all 1s ease-out;
+}
+
+.innerDivBlock124.slideIn {
+  transform: translateY(0);
+}
+
+.paraOuterDiv {
+  transform: translateY(10%);
+  transition: all 1s ease-out;
+}
+
+.paraOuterDiv.slideIn {
+  transform: translateY(0);
+}
+
 .divBlock124 span {
   color: #a9ff5d;
 }

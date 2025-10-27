@@ -14,12 +14,7 @@ import Reviews from "./Components/Reviews/Reviews";
 
 function App() {
   return (
-    <div
-      className="App"
-      onScroll={() => {
-        console.log("I am scrolled");
-      }}
-    >
+    <div>
       <Navbar></Navbar>
       <Hero></Hero>
       <Portfolio></Portfolio>
@@ -27,11 +22,11 @@ function App() {
       <WhyChooseUs></WhyChooseUs>
       <Process></Process>
       <Packages></Packages>
-      <Reviews></Reviews>
+      {/* <Reviews></Reviews>
       <Faq></Faq>
       <EarnAndRefer></EarnAndRefer>
       <Footer></Footer>
-      <Header></Header>
+      <Header></Header> */}
     </div>
   );
 }
