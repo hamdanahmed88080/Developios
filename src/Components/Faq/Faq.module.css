@@ -37,6 +37,14 @@
 
 .divBlock124 {
   overflow: hidden;
+  opacity: 0;
+  transform: translateY(20%);
+  transition: all 2s ease-out;
+}
+
+.divBlock124.slideIn {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .divBlock124 h2 {
@@ -52,6 +60,18 @@
 
 .divBlock124 span {
   color: #a9ff5d;
+}
+
+.paraOuter {
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(20%);
+  transition: all 2s ease-out;
+}
+
+.paraOuter.slideIn {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .paragraph13 {
@@ -94,6 +114,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 15px 0;
+  transition: padding 0.3s;
   display: flex;
 }
 
@@ -104,7 +125,47 @@
   margin-bottom: 0;
   margin-right: 10px;
   font-family: DM Sans, sans-serif;
-  font-size: 18px;
+  font-size: 19px;
   font-weight: 500;
   line-height: 132%;
+}
+
+.lynxIconArrow {
+  flex: none;
+  background-position: 50%;
+  background-image: url(../../images/faq-icon.svg);
+  background-repeat: no-repeat;
+  background-color: #14142b00;
+  color: white;
+  width: 40px;
+  height: 40px;
+  font-size: 14px;
+  line-height: 20px;
+  transform: rotateZ(0 deg);
+  transition: all 0.3s ease-in;
+}
+
+.iconClicked {
+  transform: rotateZ(135deg);
+}
+
+.lynxAccordionContent {
+  display: block;
+  height: 0px;
+  padding-left: 30px;
+  padding-right: 30px;
+  overflow: hidden;
+  font-weight: 300;
+  transition: all 0.3s ease-out;
+}
+
+.lynxAccordionContent.lynxAccordionContentToggle {
+  height: 106px;
+}
+.lynxParagraphAccordion {
+  color: #cecfce;
+  margin-bottom: 30px;
+  font-family: DM Sans, sans-serif;
+  font-size: 16px;
+  line-height: 165%;
 }

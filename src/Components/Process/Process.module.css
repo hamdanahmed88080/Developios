@@ -39,6 +39,17 @@
   margin-top: 0;
 }
 
+.processItemImageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
 .maxWidthLarge.alignCenter.textAlignCenter {
   flex-flow: column;
   justify-content: center;
@@ -130,8 +141,8 @@
 }
 .processItemContainer {
   z-index: 5;
-  background-color: #191b17;
-  background-image: url(https://cdn.prod.website-files.com/65c7568517fcb5339e36e278/66fd1fe395cafa412743648c_card%202.svg);
+  /* background-color: #191b17; */
+  /* background-image: url(https://cdn.prod.website-files.com/65c7568517fcb5339e36e278/66fd1fe395cafa412743648c_card%202.svg); */
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -140,7 +151,7 @@
   align-items: center;
   width: 100%;
   height: 20.5rem;
-  display: flex;
+  /* display: flex; */
   position: relative;
   overflow: hidden;
 }
@@ -170,6 +181,13 @@
   position: relative;
 }
 
+.image63 {
+  height: 100%;
+  vertical-align: middle;
+  max-width: 100%;
+  display: inline-block;
+  /* background-color: blue; */
+}
 .marginBottom.marginSmall {
   margin-top: 0;
   margin-left: 0;
@@ -219,23 +237,10 @@ h3 {
 }
 
 .divBlock61 {
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto auto;
-  grid-auto-columns: 1fr;
-  display: grid;
-}
-
-/* .img {
-  vertical-align: middle;
-  max-width: 100%;
-  align-items: center;
-}
-
-.divBlock61 {
   grid-column-gap: 16px;
   grid-row-gap: 113px;
-  grid-template-rows: auto auto;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
   grid-auto-columns: 1fr;
   display: grid;
   position: absolute;
@@ -246,7 +251,14 @@ h3 {
   align-items: center;
   display: flex;
 }
-.divBlock62 {
+
+.image56 {
+  position: absolute;
+  display: block;
+  inset: 11% 0% 0% 9%;
+  transform: translateX(0);
+}
+/* .divBlock62 {
   justify-content: center;
   align-items: center;
   display: flex;
@@ -260,11 +272,14 @@ h3 {
   justify-content: center;
   align-items: center;
   display: flex;
-}
-.image_57 {
+} */
+.image57 {
   width: 70%;
+  vertical-align: middle;
+  display: inline-block;
+  max-width: 100%;
 }
-.image_58 {
+/* .image_58 {
   width: 70%;
 }
 .image_59 {

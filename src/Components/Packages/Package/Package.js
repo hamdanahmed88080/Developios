@@ -4,11 +4,10 @@ import { useInView } from "react-intersection-observer";
 
 const Package = () => {
   const { ref, inView, entry } = useInView({
+    rootMargin: "-20%",
     triggerOnce: true,
     threshold: 0,
   });
-
-  console.log(inView);
 
   let [packageAnimationValue, setPackageAnimationValue] = useState(10);
   var [div, setDiv] = useState(null);

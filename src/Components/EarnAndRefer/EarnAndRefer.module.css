@@ -15,7 +15,7 @@
 }
 
 .divBlock75 {
-  background-color: #a9ff5d;
+  /* background-color: #a9ff5d;
   border-radius: 12px;
   display: grid;
   padding: 0;
@@ -25,14 +25,25 @@
   grid-template-rows: auto;
   grid-auto-columns: 1fr;
   column-gap: 16px;
+  row-gap: 16px; */
+  column-gap: 16px;
   row-gap: 16px;
+  background-color: #a9ff5d;
+  border-radius: 12px;
+  grid-template-rows: auto;
+  grid-template-columns: 1.75fr 1fr;
+  grid-auto-columns: 1fr;
+  padding: 0;
+  display: grid;
+  position: relative;
+  overflow: hidden;
 }
 
 .divBlock76 {
   padding-top: 50px;
   padding-bottom: 50px;
   padding-left: 50px;
-  /* position: relative; */
+  position: relative;
   z-index: 10;
 }
 
@@ -78,6 +89,9 @@
 .image66 {
   position: absolute;
   inset: auto auto 0% 0%;
+  vertical-align: middle;
+  max-width: 100%;
+  display: inline-block;
 }
 
 .divBlock79 {
@@ -92,11 +106,13 @@
 }
 
 .image71 {
+  inset: auto 0% 0%;
   width: 60%;
   position: absolute;
 }
 
 ._71_2 {
+  width: 60%;
   inset: auto 0% 0%;
   transform: rotate(-15deg);
 }

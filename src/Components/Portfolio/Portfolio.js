@@ -8,21 +8,22 @@ import portfolioImageTalkAsia from "../../images/672c67b0b245d962f937266b_Talk A
 import portfolioImageSsafLogistics from "../../images/672c67f0b45a0a10ae77ef57_SSAF Logistics.webp";
 
 const Portfolio = () => {
-  var [movingValue, setMovingValue] = useState(0);
+  var [movingValue, setMovingValue] = useState(-2100);
   var min = -2100;
   var max = 0;
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setMovingValue((prev) => {
-        if (prev >= max) {
-          return min;
-        }
-        return prev + 1;
-      });
-    }, 5);
-    return () => clearInterval(interval);
-  }, []);
+  function changeMovingValue() {
+    let value = movingValue;
+    if (value < max) {
+      value++;
+    } else {
+      value = -2100;
+    }
+    setMovingValue(value);
+    requestAnimationFrame(changeMovingValue);
+  }
+
+  window.requestAnimationFrame(changeMovingValue);
 
   return (
     <div className={styles.portfolio}>

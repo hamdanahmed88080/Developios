@@ -1,7 +1,6 @@
 import Service from "./Service/Service";
 
 import styles from "../Services/Services.module.css";
-import serviceImageAnimation from "../../images/service-1.webp";
 
 import { useInView } from "react-intersection-observer";
 

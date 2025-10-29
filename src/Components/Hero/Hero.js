@@ -8,6 +8,12 @@ import youtubeLogo from "../../icons/youtube.png";
 import behanceLogo from "../../icons/behance.png";
 import ticktokLogo from "../../icons/tiktok.png";
 
+import image4 from "../../images/svg-image-4.svg";
+import image5 from "../../images/svg-image-5.svg";
+import image6 from "../../images/svg-image-6.svg";
+import image7 from "../../images/svg-image-7.svg";
+import image8 from "../../images/svg-image-8.svg";
+
 const Hero = () => {
   return (
     <div>
@@ -46,23 +52,23 @@ const Hero = () => {
           </div>
         </div>
         <div className={styles.heroSocialSidebar}>
-          <a href="#">
+          {/* <a href="#">
             <img
               src={linkedinLogo}
               id="hero-LinkedIn"
-              className={styles.heroSocailIcons}
+              className={styles.heroSocialIcons}
             ></img>
           </a>
           <a href="#">
             <img
               id="hero-instagram"
-              className={styles.heroSocailIcons}
-              src={instagramLogo}
+              className={styles.heroSocialIcons}
+              src={image4}
             ></img>
           </a>
           <a href="#">
             <img
-              className={styles.heroSocailIcons}
+              className={styles.heroSocialIcons}
               id="hero-facebook"
               alt="icon"
               src={facebookLogo}
@@ -70,36 +76,115 @@ const Hero = () => {
           </a>
           <a href="#">
             <img
-              className={styles.heroSocailIcons}
+              className={styles.heroSocialIcons}
               id="hero-twitter"
-              src={twitterLogo}
+              src={image5}
             ></img>
           </a>
           <a href="#">
             <img
-              className={styles.heroSocailIcons}
+              className={styles.heroSocialIcons}
               id="hero-youtube"
-              src={youtubeLogo}
+              src={image6}
             ></img>
           </a>
           <a href="#">
             <img
-              className={styles.heroSocailIcons}
+              className={styles.heroSocialIcons}
               id="hero-behance"
-              src={behanceLogo}
+              src={image7}
             ></img>
+          </a> */}
+          {/* <a href="#">
+            <img
+              className={styles.heroSocialIcons}
+              id="hero-ticktok"
+              src={image8}
+            ></img>
+          </a> */}
+          <a href="#">
+            <div
+              className={`${styles.heroSocialIcons} ${styles.socialIconNew}`}
+            >
+              <i
+                className="fa fa-youtube-play"
+                class="fa fa-linkedin"
+                style={{ fontSize: "22px" }}
+              ></i>
+            </div>{" "}
           </a>
           <a href="#">
-            <img
-              className={styles.heroSocailIcons}
-              id="hero-ticktok"
-              src={ticktokLogo}
-            ></img>
+            <div
+              className={`${styles.heroSocialIcons} ${styles.socialIconNew}`}
+            >
+              <i
+                className="fa fa-youtube-play"
+                class="fa fa-instagram	"
+                style={{ fontSize: "22px" }}
+              ></i>
+            </div>
+          </a>
+          <a href="#">
+            <div
+              className={`${styles.heroSocialIcons} ${styles.socialIconNew}`}
+            >
+              <i
+                className="fa fa-youtube-play"
+                class="fa fa-facebook-f "
+                style={{ fontSize: "22px" }}
+              ></i>
+            </div>
+          </a>
+          <a href="#">
+            <div
+              className={`${styles.heroSocialIcons} ${styles.socialIconNew}`}
+            >
+              <i
+                className="fa fa-youtube-play"
+                class="fa fa-twitter "
+                style={{ fontSize: "22px" }}
+              ></i>
+            </div>
+          </a>
+          <a href="#">
+            <div
+              className={`${styles.heroSocialIcons} ${styles.socialIconNew}`}
+            >
+              <i
+                className="fa fa-youtube-play"
+                class="fa fa-youtube-play"
+                style={{ fontSize: "22px" }}
+              ></i>
+            </div>
+          </a>
+          <a href="#">
+            <div
+              className={`${styles.heroSocialIcons} ${styles.socialIconNew}`}
+            >
+              <i
+                className="fa fa-behance"
+                class="fa fa-behance "
+                style={{ fontSize: "22px" }}
+              ></i>
+            </div>
+          </a>
+          <a href="#">
+            <div
+              className={`${styles.heroSocialIcons} ${styles.socialIconNew}`}
+            >
+              <i
+                className="fa fa-github"
+                class="fa fa-github"
+                style={{ fontSize: "22px" }}
+              ></i>
+            </div>
           </a>
         </div>
       </div>
     </div>
   );
 };
+
+// fa fa-facebook-f
 
 export default Hero;

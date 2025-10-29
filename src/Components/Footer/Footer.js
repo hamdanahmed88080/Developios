@@ -27,9 +27,15 @@ const Footer = () => {
             </div>
           </div>
           <div>
-            <div className="div-block-84">
-              <a className={styles.footerLink}>sales@developios.com</a>
-              <a className="footer-link email-ft coll">+923215833822</a>
+            <div className={styles.divBlock84}>
+              <a className={`${styles.foooterLink} ${styles.emailFt}`}>
+                sales@developios.com
+              </a>
+              <a
+                className={`${styles.footerLink} ${styles.emailFt} ${styles.coll}`}
+              >
+                +923215833822
+              </a>
             </div>
             <div className={styles.divBlock83}>
               <div className={styles.divBlock118}>
@@ -66,7 +72,22 @@ const Footer = () => {
               </div>
               <div className={styles.divBlock92}>
                 <a className={`${styles.linkBlock3} ${styles.wInlineBlock} `}>
-                  <p className={styles.heading21}></p>
+                  <p className="fa fa-linkedin"></p>
+                </a>
+                <a className={`${styles.linkBlock3} ${styles.wInlineBlock} `}>
+                  <p className="fa fa-behance"></p>
+                </a>
+                <a className={`${styles.linkBlock3} ${styles.wInlineBlock} `}>
+                  <p className="fa fa-twitter"></p>
+                </a>
+                <a className={`${styles.linkBlock3} ${styles.wInlineBlock} `}>
+                  <p className="fa fa-instagram"></p>
+                </a>
+                <a className={`${styles.linkBlock3} ${styles.wInlineBlock} `}>
+                  <p className="fa fa-facebook"></p>
+                </a>
+                <a className={`${styles.linkBlock3} ${styles.wInlineBlock} `}>
+                  <p className="fa fa-tiktok"></p>
                 </a>
               </div>
             </div>

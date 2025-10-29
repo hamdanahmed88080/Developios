@@ -1,5 +1,23 @@
 import styles from "./Process.module.css";
-import serviceImageAnimation from "../../images/service-1.webp";
+import serviceImageAnimation from "../../images/ProcessImage1.webp";
+import serviceImageAnimation2 from "../../images/ProcessImage2.webp";
+import serviceImageAnimation3 from "../../images/ProcessImage3.webp";
+import Image2Sub from "../../images/Image2Sub.svg";
+import Image2Sub2 from "../../images/Image2Sub2.svg";
+
+import Image3Sub1 from "../../images/image5.svg";
+import Image3Sub2 from "../../images/image6.svg";
+import Image3Sub3 from "../../images/image7.svg";
+import Image3Sub4 from "../../images/Image8.svg";
+import Image3Sub5 from "../../images/image7 (2).svg";
+import Image3Sub6 from "../../images/svg-image-5.svg";
+import Image3Sub7 from "../../images/img-5.svg";
+import Image3Sub8 from "../../images/img-8.svg";
+import Image3Sub9 from "../../images/icon-10.svg";
+import Image3Sub10 from "../../images/image15.svg";
+
+// import Image3Sub6 from "../../images/Image8.svg";
+
 import { useEffect, useState, useRef } from "react";
 
 import image_1 from "../../images/image11.svg";
@@ -79,14 +97,14 @@ const Process = () => {
                           <div className={styles.divBlock63}>
                             <img className={styles.image57} src={image_1}></img>
                           </div>
-                          <div className={styles.divBlock62}>
-                            <img className={styles.image58} src={image_2}></img>
+                          <div className={styles.divBlock63}>
+                            <img className={styles.image57} src={image_2}></img>
                           </div>
-                          <div className={styles.divBlock64}>
-                            <img className={styles.image59} src={image_3}></img>
+                          <div className={styles.divBlock63}>
+                            <img className={styles.image57} src={image_3}></img>
                           </div>
-                          <div className={styles.divBlock65}>
-                            <img className={styles.image60} src={image_4}></img>
+                          <div className={styles.divBlock63}>
+                            <img className={styles.image57} src={image_4}></img>
                           </div>
                         </div>
                         <div className={styles.divBlock66}></div>
@@ -148,7 +166,15 @@ const Process = () => {
                         <img
                           loading="lazy"
                           className={styles.image63}
-                          src={serviceImageAnimation}
+                          src={serviceImageAnimation2}
+                        ></img>
+                        {/* <img src={Image2Sub2}></img> */}
+                        <img
+                          src={Image2Sub}
+                          className={styles.image56}
+                          style={{
+                            transform: `translatex(${myScrollValue}%)`,
+                          }}
                         ></img>
                         <div className={styles.divBlock61}></div>
                         <div className={styles.divBlock66}></div>
@@ -164,8 +190,17 @@ const Process = () => {
                         <img
                           loading="lazy"
                           className={styles.image63}
-                          src={serviceImageAnimation}
+                          src={serviceImageAnimation3}
                         ></img>
+                        {/* <img src={Image3Sub1}></img>
+                        <img src={Image3Sub2}></img>
+                        <img src={Image3Sub3}></img>
+                        <img src={Image3Sub5}></img>
+                        <img src={Image3Sub6}></img>
+                        <img src={Image3Sub7}></img>
+                        <img src={Image3Sub8}></img>
+                        <img src={Image3Sub9}></img>
+                        <img src={Image3Sub10}></img> */}
                         <div className={styles.divBlock61}></div>
                         <div className={styles.divBlock66}></div>
                         <div></div>
@@ -199,7 +234,7 @@ const Process = () => {
                       className={styles.processTimelineProgress}
                       style={{
                         willChange: "width, height",
-                        height: `100%`,
+                        height: `${myScrollValue}%`,
                       }}
                     ></div>
                   </div>

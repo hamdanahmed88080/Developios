@@ -108,6 +108,7 @@
   padding-top: 10px;
   padding-left: 10px;
   padding-right: 10px;
+  padding-bottom: 10px;
   inset: 350px 1% auto auto;
 }
 
@@ -115,7 +116,7 @@
   width: 45px;
   height: 45px;
   background: #000;
-  border-radius: 50%;
+  border-radius: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -126,16 +127,41 @@
   transition: all 0.3s ease;
 }
 
+.heroSocialSidebar div {
+  width: 45px;
+  height: 45px;
+  /* background: rgb(9, 13, 6); */
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  font-size: 10px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
 .socialSidebar a:hover {
   background: #1db954; /* hover effect (Spotify green for example) */
   transform: scale(1.1);
 }
 
-.heroSocialcons {
-  width: 40px;
-  height: 40px;
-  margin-right: 20px;
+.heroSocialIcons {
+  /* margin-right: 20px; */
   align-items: center;
   text-align: center;
   justify-content: center;
+  color: white;
+}
+
+.socialIconNew {
+  background-color: #090d06;
+  background-position: 50%;
+}
+
+.heroSocialIcons:hover {
+  background: rgb(169, 255, 93); /* hover effect (Spotify green for example) */
+  transform: scale3d(1.1, 1.1, 1.1);
+  color: black;
 }

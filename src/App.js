@@ -22,11 +22,11 @@ function App() {
       <WhyChooseUs></WhyChooseUs>
       <Process></Process>
       <Packages></Packages>
-      {/* <Reviews></Reviews>
+      <Reviews></Reviews>
       <Faq></Faq>
       <EarnAndRefer></EarnAndRefer>
       <Footer></Footer>
-      <Header></Header> */}
+      <Header></Header>
     </div>
   );
 }

@@ -1,5 +1,6 @@
 import styles from "./WhyChooseUs.module.css";
 import { useState, useEffect, useRef } from "react";
+import { useInView } from "react-intersection-observer";
 
 const WhyChooseUs = () => {
   var [movingValue, setMovingValue] = useState(1);

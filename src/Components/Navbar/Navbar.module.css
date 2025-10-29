@@ -6,12 +6,13 @@
 
 body {
   font-family: "Inter", sans-serif;
-  background: linear-gradient(
+  /* background: linear-gradient(
     to right,
     #0b0f0c,
     #101d0f,
     #090d06
-  ); /* Optional background */
+  ); Optional background */
+  background-color: #090d06;
   padding: 20px;
 }
 
