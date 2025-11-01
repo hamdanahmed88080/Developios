@@ -1,5 +1,9 @@
 .portfolio {
   overflow: hidden;
+  margin-bottom: 60px;
+  /* position: static; */
+  /* height: auto; */
+  /* display: block; */
 }
 
 .portfolioBanner {
