@@ -112,3 +112,85 @@ body {
 .ctaButton a:hover {
   background-color: #333;
 }
+
+.navbarNoShadow2 {
+  z-index: 100;
+  width: 100%;
+  margin-top: 20px;
+  position: fixed;
+  top: 0;
+}
+
+.navbarNoShadowContainer2 {
+  background-color: white;
+  width: 100%;
+  max-width: 1100px;
+  border-radius: 12px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translate3d(0px, 0px, 0px);
+}
+
+.containerRegular2 {
+  min-height: 30px;
+}
+
+.wNavBrand {
+  text-decoration: none;
+}
+
+.wNavBrand img {
+  width: 179px;
+  vertical-align: middle;
+  max-width: 100%;
+  display: inline-block;
+}
+
+.navbarWrapper2 {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.navMenuWrapper2 ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  margin: 0;
+  position: static;
+  list-style: none;
+}
+
+.navLink2 {
+  color: #1a1b1f;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-decoration: none;
+  font-family: DM Sans, sans-serif;
+  background-color: white;
+}
+
+.navButtonWrapper2 {
+  margin-left: 70px;
+}
+
+.buttonPrimary2 {
+  background-color: #1a1b1f;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 8px;
+  padding: 12px 25px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  /* line-height: 20px; */
+  cursor: pointer;
+  list-style: none;
+  transition: all 0.2s;
+  display: inline-block;
+}
