@@ -3,11 +3,20 @@ import styles from "./Navbar.module.css";
 import NavbarBrandImage from "../../images/Navbar-brand-image.webp";
 import { useEffect, useRef, useState } from "react";
 
+import navOverlayImage1 from "../../images/nav-overlay-image1.svg";
+
 const Navbar = () => {
   var divRef = useRef(null);
   let [prevScroll, setPreviousScroll] = useState(null);
   var [scrollValue, setScrollValue] = useState(0);
   let prev = 0;
+
+  // console.log(
+  //   "Element To Move",
+  //   navbarElementWrapper[0],
+  //   "Parent Element",
+  //   parentElement[0]
+  // );
 
   useEffect(() => {
     console.log("Use Effect Run");
@@ -68,11 +77,43 @@ const Navbar = () => {
   //     lastScrollTop = currentScrollTop <= 0 ? 0 : currentScrollTop;
   // }, false);
 
+  function navButtonClickHandler() {
+    var navbarToMove = document.getElementsByClassName(
+      styles.navMenuWrapper2
+    )[0];
+
+    var parentNavbarWrapper = document.getElementsByClassName(
+      styles.navbarWrapper2
+    )[0];
+    var navbarWrapperChildAfter = document.getElementsByClassName(
+      styles.wNavButton
+    )[0];
+
+    var parentNavbarOverlay = document.getElementsByClassName(
+      styles.wNavOverlay
+    )[0];
+    if (
+      parentNavbarOverlay !== navbarToMove &&
+      parentNavbarOverlay.contains(navbarToMove)
+    ) {
+      parentNavbarWrapper.insertBefore(navbarToMove, navbarWrapperChildAfter);
+      // parentNavbarOverlay.style.display = "none";
+      navbarToMove.style.display = "none";
+      parentNavbarOverlay.classList.toggle(styles.navOverlayClicked);
+    } else {
+      parentNavbarOverlay.appendChild(navbarToMove);
+      parentNavbarOverlay.classList.toggle(styles.navOverlayClicked);
+      // parentNavbarOverlay.style.display = "block";
+      // parentNavbarOverlay.style.height = "500px";
+      navbarToMove.style.display = "block";
+    }
+  }
+
   return (
-    <div>
+    <div className={styles.navbarNoShadow2}>
       <div
-        className={styles.navbarNoShadow2}
-        style={{ transform: `translate3d(0px, ${scrollValue}px, 0px)` }}
+        // className={styles.navbarNoShadow2}
+        style={{ transform: `translate3d(0px, ${0}px, 0px)` }}
       >
         <div className={`${styles.navbarNoShadowContainer2} ${styles.wNav}`}>
           <div className={`${styles.containerRegular2}`}>
@@ -119,7 +160,7 @@ const Navbar = () => {
                       Contact
                     </a>
                   </li>
-                  <li className={styles.listItem7}>
+                  <li className={styles.listItem8}>
                     <div className={styles.navButtonWrapper2}>
                       {" "}
                       <a
@@ -129,10 +170,75 @@ const Navbar = () => {
                       </a>
                     </div>
                   </li>
+                  <li className={`${styles.listItem6}`}>
+                    <a
+                      className={`${styles.linkBlock10} ${styles.wInlineBlock}`}
+                    >
+                      <img
+                        src={navOverlayImage1}
+                        className={styles.image83}
+                      ></img>
+                    </a>
+                    <a
+                      className={`${styles.linkBlock10} ${styles.wInlineBlock}`}
+                    >
+                      <img
+                        src={navOverlayImage1}
+                        className={styles.image83}
+                      ></img>
+                    </a>
+                    <a
+                      className={`${styles.linkBlock10} ${styles.wInlineBlock}`}
+                    >
+                      <img
+                        src={navOverlayImage1}
+                        className={styles.image83}
+                      ></img>
+                    </a>
+                    <a
+                      className={`${styles.linkBlock10} ${styles.wInlineBlock}`}
+                    >
+                      <img
+                        src={navOverlayImage1}
+                        className={styles.image83}
+                      ></img>
+                    </a>
+                    <a
+                      className={`${styles.linkBlock10} ${styles.wInlineBlock}`}
+                    >
+                      <img
+                        src={navOverlayImage1}
+                        className={styles.image83}
+                      ></img>
+                    </a>
+                    <a
+                      className={`${styles.linkBlock10} ${styles.wInlineBlock}`}
+                    >
+                      <img
+                        src={navOverlayImage1}
+                        className={styles.image83}
+                      ></img>
+                    </a>
+                    <a
+                      className={`${styles.linkBlock10} ${styles.wInlineBlock}`}
+                    >
+                      <img
+                        src={navOverlayImage1}
+                        className={styles.image83}
+                      ></img>
+                    </a>
+                  </li>
                 </ul>
               </nav>
+              <div
+                className={`${styles.menuButton2} ${styles.wNavButton}`}
+                onClick={navButtonClickHandler}
+              >
+                <i className="fa fa-bars"></i>
+              </div>
             </div>
           </div>
+          <div className={styles.wNavOverlay}></div>
         </div>
       </div>
     </div>
