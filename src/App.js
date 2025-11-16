@@ -11,16 +11,20 @@ import Faq from "./Components/Faq/Faq";
 import EarnAndRefer from "./Components/EarnAndRefer/EarnAndRefer";
 import Footer from "./Components/Footer/Footer";
 import Reviews from "./Components/Reviews/Reviews";
+import HeroSmSlider from "./Components/HeroSmSlider/HeroSmSlider";
+import TechSlider from "./Components/TechSlider/TechSlider";
 
 function App() {
   return (
-    <div>
+    <div className="MainApp">
       <Navbar></Navbar>
       <Hero></Hero>
+      <HeroSmSlider></HeroSmSlider>
       <Portfolio></Portfolio>
       <Services></Services>
       <WhyChooseUs></WhyChooseUs>
       <Process></Process>
+      <TechSlider></TechSlider>
       <Packages></Packages>
       <Reviews></Reviews>
       <Faq></Faq>

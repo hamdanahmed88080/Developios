@@ -1,44 +1,55 @@
-/* .services ul li a:active {
-  background-color: green;
-  border-radius: 5px;
-  padding: 10px;
-} */
+@media screen and (max-width: 990px) {
+  #servicesMain {
+    max-width: 95%;
+  }
 
-/* .hero-social-sidebar {
-  background-color: rgb(36, 34, 34);
-  margin: 20px;
-  padding: 20px;
-  border-radius: 20px;
-} */
+  .servicesMain > .servicesSection {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #servicesMain {
+    max-width: 95%;
+  }
+
+  .servicesMain > .servicesSection {
+    grid-template-columns: 1fr;
+  }
+
+  .servicesMain > .servicesHp {
+    grid-template-columns: 1fr;
+  }
+
+  .servicesHp > .servicesHpHeading h2 {
+    font-size: 60px;
+  }
+}
 
 .servicesMain {
   max-width: 1100px;
-  /* margin: 50px 500px; */
   margin-left: auto;
   margin-right: auto;
   display: block;
 }
 
-/* .servicesBanner ul {
-  display: flex;
+.servicesHpOuter {
   overflow: hidden;
 }
 
-.servicesBanner ul li img {
-  height: 400px;
-  padding-right: 20px;
-} */
-
 .servicesHp {
-  /* margin: 40px; */
-  /* padding: 30px; */
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
+  transform: translateY(100%);
+  transition: all 0.5s ease-in-out;
+}
+
+.servicesHp.slideIn {
+  transform: translateY(0%);
 }
 
 .servicesInnerDiv {
-  /* width: 300px; */
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -74,13 +85,6 @@
   font-family: Anton, sans-serif;
 }
 
-/* .servicesHpHeading.slideIn {
-  opacity: 1;
-  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
-    rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-  transform-style: preserve-3d;
-} */
-
 .servicesHpPara {
   /* padding-left: 150px; */
   font-family: DM Sans, sans-serif;
@@ -109,6 +113,7 @@
   row-gap: 16px;
   margin-top: 60px;
   column-gap: 16px;
+  margin-bottom: 40px;
 }
 
 .serviceDiv button,
@@ -127,31 +132,4 @@
   background-color: #a9ff5d;
   border-radius: 5px;
   cursor: pointer;
-}
-
-#service1 {
-  grid-row: 1;
-  grid-column: 1;
-}
-
-#service2 {
-  grid-row: 1;
-  grid-column: 2;
-}
-
-#service3 {
-  grid-row: 1;
-  grid-column: 3;
-}
-#service4 {
-  grid-row: 2;
-  grid-column: 1;
-}
-#service5 {
-  grid-row: 2;
-  grid-column: 2;
-}
-#service6 {
-  grid-row: 2;
-  grid-column: 3;
 }

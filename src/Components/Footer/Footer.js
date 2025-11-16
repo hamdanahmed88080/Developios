@@ -10,7 +10,10 @@ const Footer = () => {
           <div className={styles.logoMainDiv}>
             <div className={styles.divBlock112}>
               <a className={styles.wInlineBlock}>
-                <img src="https://cdn.prod.website-files.com/65c7568517fcb5339e36e278/670796018369cc822f08c1b9_logo%20(3).svg"></img>
+                <img
+                  className={styles.image97}
+                  src="https://cdn.prod.website-files.com/65c7568517fcb5339e36e278/670796018369cc822f08c1b9_logo%20(3).svg"
+                ></img>
               </a>
             </div>
             <div className={styles.mainLinkDiv}>

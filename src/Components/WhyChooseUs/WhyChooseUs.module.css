@@ -1,3 +1,44 @@
+@media screen and (max-width: 990px) {
+  .whyChooseUsHero > div > h2 {
+    font-size: 62px;
+    margin-bottom: 10px;
+  }
+
+  .whyChooseUsHero > .divBlock128 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .whyChooseUsHero > .divBlock128 > p {
+    max-width: 60%;
+    line-height: 29px;
+  }
+
+  .whyChooseUsContainer > .whyChooseUsReasons {
+    row-gap: 75px;
+    column-gap: 75px;
+    grid-template-columns: 1fr;
+  }
+
+  .whyChooseUsHero h2 {
+    margin-bottom: 10px;
+  }
+
+  .whyChooseUsReasons > .individualReason p {
+    max-width: 53%;
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .whyChooseUsContainer > .whyChooseUsReasons {
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+}
+
 .whyChooseUs {
   background-color: #a9ff5d;
   border-radius: 19px;
@@ -35,9 +76,24 @@
   font-size: 72px;
   font-weight: 400;
   line-height: 120%;
+  transform: translateY(100%);
+  transition: all 0.5s ease-in-out;
 }
 
-.whyChooseUsHero p {
+h2.slideIn {
+  transform: translate(0%);
+}
+
+.divBlock128 {
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.divBlock128 p {
+  color: #090d06;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -47,6 +103,12 @@
   font-size: 18px;
   font-weight: 300;
   line-height: 25px;
+  transform: translateY(100%);
+  transition: all 0.5s ease-in-out;
+}
+
+p.slideIn {
+  transform: translateY(0);
 }
 
 .whyChooseUsReasons {
@@ -60,7 +122,7 @@
   margin-top: 14px;
 }
 
-#reason1 {
+.individualReason {
   text-align: center;
   flex-direction: column;
   justify-content: flex-start;
@@ -68,7 +130,233 @@
   display: flex;
 }
 
-#reason2 {
+.bellWrap {
+  transform-origin: center top;
+  animation: bellShake 2s infinite;
+}
+
+@keyframes bellShake {
+  0% {
+    transform: rotate(0deg);
+    animation-timing-function: ease;
+  }
+  15% {
+    animation-timing-function: ease;
+    transform: rotate(15deg);
+  }
+  30% {
+    transform: rotate(0deg);
+    animation-timing-function: ease;
+  }
+  45% {
+    animation-timing-function: ease;
+    transform: rotate(-15deg);
+  }
+  60% {
+    animation-timing-function: ease;
+    transform: rotate(0deg);
+  }
+  70% {
+    animation-timing-function: ease;
+    transform: rotate(15deg);
+  }
+  80% {
+    animation-timing-function: ease;
+    transform: rotate(0deg);
+  }
+  90% {
+    animation-timing-function: ease;
+    transform: rotate(-15deg);
+  }
+  100% {
+    animation-timing-function: ease;
+    transform: rotate(0deg);
+  }
+}
+
+.bottomStroke {
+  transform-origin: top center;
+  animation: rotateBottom 2s infinite ease-in;
+  animation-delay: 0.1s;
+}
+
+/* swayBottom 1s infinite ease-in-out */
+/* bounceBottom 1s infinite ease-in-out */
+
+/* @keyframes bottomPulse {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(2px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+} */
+
+@keyframes rotateBottom {
+  0% {
+    transform: translate3d(0, 5px, 0) rotate(0deg);
+  }
+  /* 25% {
+    transform: translate3d(-35px, 5px, 0) rotate(-12deg);
+  } */
+  15% {
+    transform: translate3d(-35px, 2px, 0) rotate(-12deg);
+  }
+  /* 50% {
+    transform: translate3d(35px, 5px, 0) rotate(12deg);
+  } */
+  30% {
+    transform: translate3d(0px, 5px, 0) rotate(0deg);
+  }
+  /* 65% {
+    transform: translate3d(-20px, 5px, 0) rotate(-9deg);
+  } */
+  45% {
+    transform: translate3d(35px, 2px, 0) rotate(12deg);
+  }
+  /* 80% {
+    transform: translate3d(20px, 5px, 0) rotate(9deg);
+  } */
+  60% {
+    transform: translate3d(0px, 5px, 0) rotate(0deg);
+  }
+  /* % {
+    transform: translate3d(0, 5px, 0) rotate(0deg);
+  } */
+  /* 25% {
+    transform: translate3d(-35px, 5px, 0) rotate(-12deg);
+  } */
+  70% {
+    transform: translate3d(-35px, 2px, 0) rotate(-12deg);
+  }
+  /* 50% {
+    transform: translate3d(35px, 5px, 0) rotate(12deg);
+  } */
+  80% {
+    transform: translate3d(0px, 5px, 0) rotate(0deg);
+  }
+  /* 65% {
+    transform: translate3d(-20px, 5px, 0) rotate(-9deg);
+  } */
+  90% {
+    transform: translate3d(35px, 2px, 0) rotate(12deg);
+  }
+  /* 80% {
+    transform: translate3d(20px, 5px, 0) rotate(9deg);
+  } */
+  100% {
+    transform: translate3d(0px, 5px, 0) rotate(0deg);
+  }
+  /* 90% {
+    transform: translate3d(-35px, 2px, 0) rotate(-12deg);
+  }
+  100% {
+    transform: translate3d(0px, 5px, 0) rotate(0deg);
+  } */
+  /* 100% {
+    transform: translate3d(0px, 5px, 0) rotate(0deg);
+  } */
+}
+
+/* @keyframes shakeBottom {
+  0% {
+    transform: rotate(0deg);
+  }
+  30% {
+    transform: rotate(-6deg);
+  }
+  60% {
+    transform: rotate(6deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+} */
+
+@keyframes bounceBottom {
+  0% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(2px);
+  }
+  60% {
+    transform: translateY(-2px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes swayBottom {
+  0% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(-3px);
+  }
+  40% {
+    transform: translateX(3px);
+  }
+  60% {
+    transform: translateX(-2px);
+  }
+  80% {
+    transform: translateX(2px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* .innerStroke {
+  animation: sidePulse 1s infinite ease-in-out;
+}
+
+@keyframes sidePulse {
+  0% {
+    opacity: 0.2;
+  }
+  40% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.2;
+  }
+} */
+
+.individualReason h3 {
+  color: #090d06;
+  max-width: 319px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-family: DM Sans, sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.individualReason p {
+  color: #090d06;
+  max-width: none;
+  font-family: DM Sans, sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 23px;
+  margin-bottom: 0;
+}
+
+.lottieAnimation4 {
+  width: 100px;
+}
+
+/* #reason2 {
   text-align: center;
   flex-direction: column;
   justify-content: flex-start;
@@ -82,4 +370,4 @@
   justify-content: flex-start;
   align-items: center;
   display: flex;
-}
+} */

@@ -1,0 +1,61 @@
+.divBlock16 {
+  margin-top: 40px;
+  margin-bottom: 60px;
+  /* border: 1px solid red; */
+  /* overflow-x: scroll; */
+  overflow: hidden;
+  /* display: flex; */
+  /* width: 4500px; */
+}
+
+/* .divBlock16::-webkit-scrollbar {
+  display: none;
+} */
+
+.divBlock17 {
+  margin: 0;
+}
+
+.divBlock18 {
+  display: flex;
+  width: 5000px;
+  justify-content: flex-start;
+  align-items: center;
+  /* overflow: hidden; */
+  /* animation: spin 20s linear infinite; */
+}
+
+.image12 {
+  margin-right: 70px;
+  width: 200px;
+}
+
+.image13 {
+  margin-right: 70px;
+  width: 200px;
+}
+
+.image14 {
+  margin-right: 70px;
+  width: 92px;
+}
+.image15 {
+  margin-right: 70px;
+  width: 220px;
+}
+.image16 {
+  margin-right: 70px;
+  width: 200px;
+}
+.image16.gobaPlay {
+  width: 180px;
+}
+
+@keyframes spin {
+  from {
+    translate: 0;
+  }
+  to {
+    translate: -100%;
+  }
+}

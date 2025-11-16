@@ -8,17 +8,16 @@ import { useInView } from "react-intersection-observer";
 
 const Service = ({ id }) => {
   const { ref, inView, entry } = useInView({
+    rootMargin: "0%",
     triggerOnce: true,
     threshold: 0,
   });
 
   function onMouseEnterHandler(event) {
     var currentTarget = event.currentTarget;
-    // console.log(currentTarget.children);
     var targetChildren = currentTarget.children;
     var arrowRightDiv = targetChildren[2].children[0];
     var img = targetChildren[2].children[0].children[0];
-    // var img = targetChildren[2].children[0];
     // console.log();
     if (arrowRightDiv && img) {
       arrowRightDiv.classList.toggle(styles.buttonHover);
@@ -55,13 +54,14 @@ const Service = ({ id }) => {
 
   return (
     <div style={{ display: "grid" }}>
-      <a>
+      <a
+        id={id}
+        // id={styles["service1"]}
+        ref={ref}
+        className={`${styles.anchor} ${inView ? styles.slideIn : ""}`}
+      >
         <div
-          id={id}
-          ref={ref}
-          className={`${styles.serviceDiv} ${
-            inView ? styles.serviceSlideIn : ""
-          }`}
+          className={styles.serviceDiv}
           onMouseEnter={onMouseEnterHandler}
           onMouseLeave={onMouseLeaveHandler}
         >

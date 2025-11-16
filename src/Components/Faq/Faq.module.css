@@ -1,3 +1,27 @@
+@media screen and (max-width: 990px) {
+  .containerDiv .faqMaminDiv {
+    grid-template-columns: 1fr;
+  }
+
+  .faq > .containerDiv {
+    max-width: 86%;
+  }
+
+  .faqInner1 .divBlock124 #faqHeading {
+    font-size: 50px;
+  }
+
+  .paraOuter #faqParagraphHeading {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .faqInner1 .divBlock124 #faqHeading {
+    font-size: 43px;
+  }
+}
+
 .faq {
   background-color: #090d06;
   /* background-color: blue; */
@@ -5,7 +29,7 @@
   padding-bottom: 60px;
 }
 
-.faq .containerDiv {
+.containerDiv {
   max-width: 1100px;
   margin-left: auto;
   margin-right: auto;

@@ -11,13 +11,6 @@ const Navbar = () => {
   var [scrollValue, setScrollValue] = useState(0);
   let prev = 0;
 
-  // console.log(
-  //   "Element To Move",
-  //   navbarElementWrapper[0],
-  //   "Parent Element",
-  //   parentElement[0]
-  // );
-
   useEffect(() => {
     console.log("Use Effect Run");
     var scrollHandler = (event) => {
@@ -25,34 +18,16 @@ const Navbar = () => {
         window.pageYOffset || document.documentElement.scrollTop;
       if (currentScrollTop >= prev) {
         var scroll = 0;
-        // setInterval(() => {
-        //   if (scroll >= -100) {
-        //     scroll -= 1;
-        //     setScrollValue(scroll);
-        //     console.log(scrollValue, "This is scroll value", scroll);
-        //   }
-        // }, 20);
-        function scrollNavUp() {
-          if (scroll > -100) {
-            scroll -= 1;
-            setScrollValue(scroll);
-          }
-          requestAnimationFrame(scrollNavUp);
+        var nav = document.getElementsByClassName(styles.nav)[0];
+        if (!nav.classList.contains(styles.moveNav)) {
+          nav.classList.toggle(styles.moveNav);
         }
-        window.requestAnimationFrame(scrollNavUp);
-
-        // console.log("Scrolled Down", prev, currentScrollTop);
       } else {
         var scroll = -101;
-        console.log("Scrolled Up", prev, currentScrollTop);
-        function scrollNavDown() {
-          if (scroll < 0) {
-            scroll += 1;
-            setScrollValue(scroll);
-          }
-          requestAnimationFrame(scrollNavDown);
+        var nav = document.getElementsByClassName(styles.nav)[0];
+        if (nav.classList.contains(styles.moveNav)) {
+          nav.classList.toggle(styles.moveNav);
         }
-        window.requestAnimationFrame(scrollNavDown);
       }
       prev = currentScrollTop;
     };
@@ -113,7 +88,8 @@ const Navbar = () => {
     <div className={styles.navbarNoShadow2}>
       <div
         // className={styles.navbarNoShadow2}
-        style={{ transform: `translate3d(0px, ${0}px, 0px)` }}
+        className={`${styles.nav}`}
+        // style={{ transform: `translate3d(0px, ${scrollValue}px, 0px)` }}
       >
         <div className={`${styles.navbarNoShadowContainer2} ${styles.wNav}`}>
           <div className={`${styles.containerRegular2}`}>

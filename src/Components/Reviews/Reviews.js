@@ -27,19 +27,6 @@ const Reviews = () => {
     return () => clearInterval(intervalId);
   }
 
-  // function scrollDown() {
-  //   const intervalId = setInterval(() => {
-  //     setDivScrollDown((prev) => {
-  //       if (prev < max) {
-  //         return prev + 1;
-  //       } else {
-  //         return -750;
-  //       }
-  //     });
-  //   }, 20);
-  //   return () => clearInterval(intervalId);
-  // }
-
   function scrollDown(timmy) {
     let value = divScrollDown;
     if (value < 0) {
@@ -88,7 +75,7 @@ const Reviews = () => {
     <div>
       {" "}
       <div className={styles.sectionHomeProcess}>
-        <div className="testimonial-main-div">
+        <div className={styles.testimonialMainDiv}>
           <div className={styles.pagePadding}>
             <div className={styles.containerMedium}>
               <div className={`${styles.pageVertical} ${styles.pageXhuge}`}>
@@ -511,6 +498,9 @@ const Reviews = () => {
               </div>
             </div>
           </div>
+          <div className={styles.divBlock70}></div>
+          <div className={styles.divBlock71}></div>
+          <div className={styles.divBlock73}></div>
         </div>
       </div>
     </div>

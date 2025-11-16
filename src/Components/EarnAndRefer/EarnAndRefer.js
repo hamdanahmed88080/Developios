@@ -79,7 +79,7 @@ const EarnAndRefer = () => {
             </div>
             <img
               src="https://cdn.prod.website-files.com/65c7568517fcb5339e36e278/67076c7d079f7e9ef21c7f18_leaves%20(3).svg"
-              className="image-66"
+              className={styles.image66}
             ></img>
           </div>
         </div>

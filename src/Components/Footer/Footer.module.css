@@ -1,3 +1,61 @@
+@media screen and (max-width: 990px) {
+  div > .divBlock83 {
+    padding-top: 25px;
+    flex-flow: column;
+  }
+
+  .divBlock83 .divBlock118,
+  .divBlock83 .divBlock85 {
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+
+  .divBlock83 .divBlock92 {
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+  }
+
+  .paddingSection .mainContainer {
+    max-width: 90%;
+  }
+
+  div > .divBlock84 {
+    margin-bottom: 0px;
+  }
+
+  .wInlineBlock .image97 {
+    width: 80%;
+  }
+
+  .mainLinkDiv .divBlock106 .footerLink {
+    font-size: 12px;
+  }
+
+  .mainLinkDiv .divBlock107 .footerLink {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .mainContainer .logoMainDiv {
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 20px;
+  }
+
+  .mainLinkDiv .divBlock106 .footerLink {
+    font-size: 12px;
+  }
+
+  .mainLinkDiv .divBlock107 .footerLink {
+    font-size: 12px;
+  }
+}
+
 .paddingSection {
   background-color: #090d06;
   margin-top: 0;
@@ -41,6 +99,9 @@
   font-family: DM Sans, sans-serif;
   text-decoration: none;
   cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 20px;
 }
 
 .divBlock84 {

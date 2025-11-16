@@ -49,7 +49,7 @@ const Faq = () => {
               >
                 <h2 id={styles["faqHeading"]}>
                   Frequently Asked
-                  <br></br>
+                  <br id="lineBreak"></br>
                   <span>Questions</span>
                 </h2>
               </div>

@@ -1,0 +1,28 @@
+.techSlider {
+  overflow: hidden;
+}
+
+.brix {
+  width: 4800px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.wContainer {
+  display: flex;
+  max-width: 4800px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.wLayoutGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  row-gap: 67px;
+  column-gap: 67px;
+  justify-content: center;
+  place-items: center;
+  width: 1393px;
+  margin-right: 67px;
+}

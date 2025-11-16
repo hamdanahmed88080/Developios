@@ -1,3 +1,22 @@
+@media screen and (max-width: 990px) {
+  .headingDiv h2 {
+    font-size: 62px;
+    line-height: 76px;
+  }
+
+  .individualPackageParagraph p {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .package .individualPackage {
+    /* transition-property: none; */
+  }
+}
+
+@media screen and (max-width: 767px) {
+}
+
 .individualPackage {
   background-color: #0d1208;
   border-style: solid;
@@ -6,11 +25,29 @@
   border-radius: 24px;
   box-sizing: border-box;
   color: white;
-  padding: 40px 28px;
   opacity: 0;
   transform: translateY(20%);
   transition: all 1s ease-out;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
   /* height: 700px; */
+}
+
+.package {
+  transform: translateY(0);
+  transition: all 0.3s ease-in-out;
+}
+
+.package:hover {
+  transform: translateY(-2%);
+}
+
+.individualPackage .content {
+  padding: 40px 28px;
+  border-radius: 24px;
+  height: 100%;
+  position: relative;
 }
 
 .individualPackage.individualPackageSlideIn {
@@ -18,21 +55,32 @@
   transform: translateY(0);
 }
 
-.individualPackage .heading {
+.individualPackage .individualPackageHeader {
   text-align: center;
   margin-bottom: 32px;
 }
 
-.individualPackage .heading h2 {
+.flexVerticalContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.headingDiv {
+  margin-bottom: 12px;
+}
+
+.individualPackage .individualPackageHeader h2 {
   text-align: left;
   font-family: DM Sans, sans-serif;
   font-size: 26px;
   font-weight: 700;
   line-height: 32px;
-  margin-bottom: 12px;
+  /* margin-bottom: 12px; */
 }
 
-.individualPackage .heading p {
+.individualPackage .individualPackageHeader p {
   text-align: left;
   margin-bottom: 0;
   font-family: DM Sans, sans-serif;
@@ -69,11 +117,12 @@
 }
 
 .getStarted {
-  margin-top: 40px;
 }
 
-.getStarted button {
+.getStarted {
+  margin-top: 40px;
   background-color: white;
+  transform-style: preserve-3d;
   border-radius: 12px;
   width: 100%;
   padding: 20px 38px;
@@ -83,4 +132,17 @@
   text-decoration: none;
   border: 0;
   cursor: pointer;
+  transition: background-color 0.1s, transform 0.1s, color 0.1s;
+}
+
+.getStarted:hover {
+  background-color: #a9ff5d;
+  transform: translate3d(0, -3px, 0.01px);
+  color: black;
+}
+
+.getStarted p {
+  color: black;
+  text-align: center;
+  align-items: center;
 }

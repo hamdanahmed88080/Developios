@@ -74,7 +74,7 @@ body {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   list-style: none;
   padding: 10px 0;
-  display: none;
+  /* display: none; */
   z-index: 100;
 }
 
@@ -119,6 +119,15 @@ body {
   margin-top: 20px;
   position: fixed;
   top: 0;
+}
+
+.nav {
+  transform: translate3d(0, 0, 0);
+  transition: all 0.4s;
+}
+
+.nav.moveNav {
+  transform: translate3d(0, -100px, 0);
 }
 
 @media screen and (min-width: 1280px) {
@@ -206,6 +215,11 @@ body {
     display: block;
   }
 }
+
+.navMenu2 > .listItem6 {
+  display: none;
+}
+
 .navbarNoShadowContainer2 {
   background-color: white;
   z-index: 10;
