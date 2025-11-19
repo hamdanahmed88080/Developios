@@ -12,7 +12,6 @@ const Navbar = () => {
   let prev = 0;
 
   useEffect(() => {
-    console.log("Use Effect Run");
     var scrollHandler = (event) => {
       var currentScrollTop =
         window.pageYOffset || document.documentElement.scrollTop;

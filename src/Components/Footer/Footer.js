@@ -11,6 +11,8 @@ const Footer = () => {
             <div className={styles.divBlock112}>
               <a className={styles.wInlineBlock}>
                 <img
+                  alt="image"
+                  loading="lazy"
                   className={styles.image97}
                   src="https://cdn.prod.website-files.com/65c7568517fcb5339e36e278/670796018369cc822f08c1b9_logo%20(3).svg"
                 ></img>
@@ -44,24 +46,32 @@ const Footer = () => {
               <div className={styles.divBlock118}>
                 <a className={`${styles.linkBlock25} ${styles.wInlineBlock}`}>
                   <img
+                    alt="image"
+                    loading="lazy"
                     className={styles.image98}
                     src="https://cdn.prod.website-files.com/65c7568517fcb5339e36e278/67333631b95147a1fced2337_fiverr-2%201.svg"
                   ></img>
                 </a>
                 <a className={`${styles.linkBlock26} ${styles.wInlineBlock} `}>
                   <img
+                    alt="image"
+                    loading="lazy"
                     className={styles.image99}
                     src="https://cdn.prod.website-files.com/65c7568517fcb5339e36e278/673336734cd2ee3abb52c391_upwork%201.svg"
                   ></img>
                 </a>
                 <a className={`${styles.linkBlock27} ${styles.wInlineBlock} `}>
                   <img
+                    alt="image"
+                    loading="lazy"
                     className={styles.image100}
                     src="https://cdn.prod.website-files.com/65c7568517fcb5339e36e278/673336912d534dd54d3a2292_Frame%202121449735.svg"
                   ></img>
                 </a>
                 <a className={`${styles.linkBlock28} ${styles.wInlineBlock} `}>
                   <img
+                    alt="image"
+                    loading="lazy"
                     className={styles.image101}
                     src="https://cdn.prod.website-files.com/65c7568517fcb5339e36e278/673336ae394ede6c399ad4bd_wise-1%201.svg"
                   ></img>

@@ -145,22 +145,43 @@ const Process = () => {
                         <img
                           loading="lazy"
                           className={styles.image63}
+                          alt="image"
                           srcSet={`${serviceImageAnimation_sm} 500w, ${serviceImgeAnimation_md} 800w, ${serviceImageAnimation} 1016w`}
                           sizes="(max-width: 1016px) 100vw, 1016px"
                           src={serviceImageAnimation}
                         ></img>
                         <div className={styles.divBlock61}>
                           <div className={styles.divBlock63}>
-                            <img className={styles.image57} src={image_1}></img>
+                            <img
+                              loading="lazy"
+                              alt="image"
+                              className={styles.image57}
+                              src={image_1}
+                            ></img>
                           </div>
                           <div className={styles.divBlock63}>
-                            <img className={styles.image57} src={image_2}></img>
+                            <img
+                              loading="lazy"
+                              alt="image"
+                              className={styles.image57}
+                              src={image_2}
+                            ></img>
                           </div>
                           <div className={styles.divBlock63}>
-                            <img className={styles.image57} src={image_3}></img>
+                            <img
+                              loading="lazy"
+                              alt="image"
+                              className={styles.image57}
+                              src={image_3}
+                            ></img>
                           </div>
                           <div className={styles.divBlock63}>
-                            <img className={styles.image57} src={image_4}></img>
+                            <img
+                              loading="lazy"
+                              alt="image"
+                              className={styles.image57}
+                              src={image_4}
+                            ></img>
                           </div>
                         </div>
                         <div className={styles.divBlock66}>
@@ -173,8 +194,12 @@ const Process = () => {
                               opacity: `${myScrollValue / 70}`,
                             }}
                             className={styles.processImage1Main1}
+                            loading="lazy"
+                            alt="image"
                           ></img>
                           <img
+                            loading="lazy"
+                            alt="image"
                             src={processImage1SubMain2}
                             style={{ width: "75%" }}
                           ></img>
@@ -236,11 +261,14 @@ const Process = () => {
                       <div className={styles.processItemImageContainer}>
                         <img
                           loading="lazy"
+                          alt="image"
                           className={styles.image63}
                           src={serviceImageAnimation2}
                         ></img>
                         {/* <img src={Image2Sub2}></img> */}
                         <img
+                          loading="lazy"
+                          alt="image"
                           src={Image2Sub}
                           className={styles.image56}
                           style={{
@@ -248,6 +276,8 @@ const Process = () => {
                           }}
                         ></img>
                         <img
+                          loading="lazy"
+                          alt="image"
                           src={processImage2Main}
                           className={styles.processImage2Main}
                           style={{ opacity: `${myScrollValue / 100}` }}
@@ -267,6 +297,7 @@ const Process = () => {
                       >
                         <img
                           loading="lazy"
+                          alt="image"
                           className={styles.image63}
                           src={serviceImageAnimation3}
                         ></img>
@@ -277,16 +308,22 @@ const Process = () => {
                           }}
                         >
                           <img
+                            loading="lazy"
+                            alt="image"
                             src={process3Sub3_2}
                             className={styles.image45}
                           ></img>
                           <img
+                            loading="lazy"
+                            alt="image"
                             src={process3Sub3}
                             className={styles.image47}
                             style={{ opacity: `${1 / image3ScrollValue / 3}` }}
                           ></img>
                         </div>
                         <img
+                          loading="lazy"
+                          alt="image"
                           src={process3Sub1}
                           className={styles.image43}
                           style={{
@@ -294,6 +331,8 @@ const Process = () => {
                           }}
                         ></img>
                         <img
+                          loading="lazy"
+                          alt="image"
                           src={process3Sub2}
                           className={styles.image44}
                           style={{
@@ -301,6 +340,8 @@ const Process = () => {
                           }}
                         ></img>
                         <img
+                          loading="lazy"
+                          alt="image"
                           src={process3Sub4}
                           className={styles.image46}
                           style={{
@@ -308,6 +349,8 @@ const Process = () => {
                           }}
                         ></img>
                         <img
+                          loading="lazy"
+                          alt="image"
                           src={process3Arrow}
                           className={styles.imageArrow}
                         ></img>
@@ -366,5 +409,5 @@ export default Process;
   alt="img"
   src="https://cdn.prod.website-files.com/65c7568517fcb5339e36e278/6706693d4c48131ee56b2d40_card%203%20(3).webp"
   loading="lazy"
-  class="image-63"
+  className="image-63"
 ></img>;

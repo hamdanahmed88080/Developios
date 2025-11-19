@@ -130,7 +130,12 @@ const Reviews = () => {
               <div>
                 <div className={styles.divBlock68}>
                   <div className={styles.divBlock69}>
-                    <img className={styles.image65} src={profilePic1}></img>
+                    <img
+                      className={styles.image65}
+                      alt="image"
+                      loading="lazy"
+                      src={profilePic1}
+                    ></img>
                     <h5 className={styles.heading12}>Neerthigan Sivananthan</h5>
                   </div>
                   <div>
@@ -140,11 +145,20 @@ const Reviews = () => {
                       Faraz's communication, dedication and availability.
                     </p>
                   </div>
-                  <img className={styles.image78}></img>
+                  <img
+                    className={styles.image78}
+                    alt="image"
+                    loading="lazy"
+                  ></img>
                 </div>
                 <div className={styles.divBlock68}>
                   <div className={styles.divBlock69}>
-                    <img className={styles.image65} src={profilePic1}></img>
+                    <img
+                      className={styles.image65}
+                      alt="image"
+                      loading="lazy"
+                      src={profilePic1}
+                    ></img>
                     <h5 className={styles.heading12}>Neerthigan Sivananthan</h5>
                   </div>
                   <div>
@@ -154,11 +168,20 @@ const Reviews = () => {
                       Faraz's communication, dedication and availability.
                     </p>
                   </div>
-                  <img className={styles.image78}></img>
+                  <img
+                    className={styles.image78}
+                    alt="image"
+                    loading="lazy"
+                  ></img>
                 </div>
                 <div className={styles.divBlock68}>
                   <div className={styles.divBlock69}>
-                    <img className={styles.image65} src={profilePic1}></img>
+                    <img
+                      className={styles.image65}
+                      alt="image"
+                      loading="lazy"
+                      src={profilePic1}
+                    ></img>
                     <h5 className={styles.heading12}>Neerthigan Sivananthan</h5>
                   </div>
                   <div>
@@ -168,14 +191,23 @@ const Reviews = () => {
                       Faraz's communication, dedication and availability.
                     </p>
                   </div>
-                  <img className={styles.image78}></img>
+                  <img
+                    className={styles.image78}
+                    alt="image"
+                    loading="lazy"
+                  ></img>
                 </div>
               </div>
               <div>
                 <div className={styles.divBlock68}>
                   {" "}
                   <div className={styles.divBlock69}>
-                    <img className={styles.image65} src={profilePic1}></img>
+                    <img
+                      className={styles.image65}
+                      alt="image"
+                      loading="lazy"
+                      src={profilePic1}
+                    ></img>
                     <h5 className={styles.heading12}>Neerthigan Sivananthan</h5>
                   </div>
                   <div>
@@ -185,11 +217,20 @@ const Reviews = () => {
                       Faraz's communication, dedication and availability.
                     </p>
                   </div>
-                  <img className={styles.image78}></img>
+                  <img
+                    className={styles.image78}
+                    alt="image"
+                    loading="lazy"
+                  ></img>
                 </div>
                 <div className={styles.divBlock68}>
                   <div className={styles.divBlock69}>
-                    <img className={styles.image65} src={profilePic1}></img>
+                    <img
+                      className={styles.image65}
+                      alt="image"
+                      loading="lazy"
+                      src={profilePic1}
+                    ></img>
                     <h5 className={styles.heading12}>Neerthigan Sivananthan</h5>
                   </div>
                   <div>
@@ -199,11 +240,20 @@ const Reviews = () => {
                       Faraz's communication, dedication and availability.
                     </p>
                   </div>
-                  <img className={styles.image78}></img>
+                  <img
+                    className={styles.image78}
+                    alt="image"
+                    loading="lazy"
+                  ></img>
                 </div>
                 <div className={styles.divBlock68}>
                   <div className={styles.divBlock69}>
-                    <img className={styles.image65} src={profilePic1}></img>
+                    <img
+                      className={styles.image65}
+                      alt="image"
+                      loading="lazy"
+                      src={profilePic1}
+                    ></img>
                     <h5 className={styles.heading12}>Neerthigan Sivananthan</h5>
                   </div>
                   <div>
@@ -213,7 +263,11 @@ const Reviews = () => {
                       Faraz's communication, dedication and availability.
                     </p>
                   </div>
-                  <img className={styles.image78}></img>
+                  <img
+                    className={styles.image78}
+                    alt="image"
+                    loading="lazy"
+                  ></img>
                 </div>
               </div>
             </div>
@@ -224,7 +278,12 @@ const Reviews = () => {
               <div>
                 <div className={styles.divBlock68}>
                   <div className={styles.divBlock69}>
-                    <img className={styles.image65} src={profilePic1}></img>
+                    <img
+                      className={styles.image65}
+                      alt="image"
+                      loading="lazy"
+                      src={profilePic1}
+                    ></img>
                     <h5 className={styles.heading12}>Neerthigan Sivananthan</h5>
                   </div>
                   <div>
@@ -234,11 +293,20 @@ const Reviews = () => {
                       Faraz's communication, dedication and availability.
                     </p>
                   </div>
-                  <img className={styles.image78}></img>
+                  <img
+                    className={styles.image78}
+                    alt="image"
+                    loading="lazy"
+                  ></img>
                 </div>
                 <div className={styles.divBlock68}>
                   <div className={styles.divBlock69}>
-                    <img className={styles.image65} src={profilePic1}></img>
+                    <img
+                      className={styles.image65}
+                      alt="image"
+                      loading="lazy"
+                      src={profilePic1}
+                    ></img>
                     <h5 className={styles.heading12}>Neerthigan Sivananthan</h5>
                   </div>
                   <div>
@@ -248,11 +316,20 @@ const Reviews = () => {
                       Faraz's communication, dedication and availability.
                     </p>
                   </div>
-                  <img className={styles.image78}></img>
+                  <img
+                    className={styles.image78}
+                    alt="image"
+                    loading="lazy"
+                  ></img>
                 </div>
                 <div className={styles.divBlock68}>
                   <div className={styles.divBlock69}>
-                    <img className={styles.image65} src={profilePic1}></img>
+                    <img
+                      className={styles.image65}
+                      alt="image"
+                      loading="lazy"
+                      src={profilePic1}
+                    ></img>
                     <h5 className={styles.heading12}>Neerthigan Sivananthan</h5>
                   </div>
                   <div>
@@ -262,14 +339,23 @@ const Reviews = () => {
                       Faraz's communication, dedication and availability.
                     </p>
                   </div>
-                  <img className={styles.image78}></img>
+                  <img
+                    className={styles.image78}
+                    alt="image"
+                    loading="lazy"
+                  ></img>
                 </div>
               </div>
               <div>
                 <div className={styles.divBlock68}>
                   {" "}
                   <div className={styles.divBlock69}>
-                    <img className={styles.image65} src={profilePic1}></img>
+                    <img
+                      className={styles.image65}
+                      alt="image"
+                      loading="lazy"
+                      src={profilePic1}
+                    ></img>
                     <h5 className={styles.heading12}>Neerthigan Sivananthan</h5>
                   </div>
                   <div>
@@ -279,11 +365,20 @@ const Reviews = () => {
                       Faraz's communication, dedication and availability.
                     </p>
                   </div>
-                  <img className={styles.image78}></img>
+                  <img
+                    className={styles.image78}
+                    alt="image"
+                    loading="lazy"
+                  ></img>
                 </div>
                 <div className={styles.divBlock68}>
                   <div className={styles.divBlock69}>
-                    <img className={styles.image65} src={profilePic1}></img>
+                    <img
+                      className={styles.image65}
+                      alt="image"
+                      loading="lazy"
+                      src={profilePic1}
+                    ></img>
                     <h5 className={styles.heading12}>Neerthigan Sivananthan</h5>
                   </div>
                   <div>
@@ -293,11 +388,20 @@ const Reviews = () => {
                       Faraz's communication, dedication and availability.
                     </p>
                   </div>
-                  <img className={styles.image78}></img>
+                  <img
+                    className={styles.image78}
+                    alt="image"
+                    loading="lazy"
+                  ></img>
                 </div>
                 <div className={styles.divBlock68}>
                   <div className={styles.divBlock69}>
-                    <img className={styles.image65} src={profilePic1}></img>
+                    <img
+                      className={styles.image65}
+                      alt="image"
+                      loading="lazy"
+                      src={profilePic1}
+                    ></img>
                     <h5 className={styles.heading12}>Neerthigan Sivananthan</h5>
                   </div>
                   <div>
@@ -307,7 +411,11 @@ const Reviews = () => {
                       Faraz's communication, dedication and availability.
                     </p>
                   </div>
-                  <img className={styles.image78}></img>
+                  <img
+                    className={styles.image78}
+                    alt="image"
+                    loading="lazy"
+                  ></img>
                 </div>
               </div>
             </div>
@@ -318,7 +426,12 @@ const Reviews = () => {
               <div>
                 <div className={styles.divBlock68}>
                   <div className={styles.divBlock69}>
-                    <img className={styles.image65} src={profilePic1}></img>
+                    <img
+                      className={styles.image65}
+                      alt="image"
+                      loading="lazy"
+                      src={profilePic1}
+                    ></img>
                     <h5 className={styles.heading12}>Neerthigan Sivananthan</h5>
                   </div>
                   <div>
@@ -328,11 +441,20 @@ const Reviews = () => {
                       Faraz's communication, dedication and availability.
                     </p>
                   </div>
-                  <img className={styles.image78}></img>
+                  <img
+                    className={styles.image78}
+                    alt="image"
+                    loading="lazy"
+                  ></img>
                 </div>
                 <div className={styles.divBlock68}>
                   <div className={styles.divBlock69}>
-                    <img className={styles.image65} src={profilePic1}></img>
+                    <img
+                      className={styles.image65}
+                      alt="image"
+                      loading="lazy"
+                      src={profilePic1}
+                    ></img>
                     <h5 className={styles.heading12}>Neerthigan Sivananthan</h5>
                   </div>
                   <div>
@@ -342,11 +464,20 @@ const Reviews = () => {
                       Faraz's communication, dedication and availability.
                     </p>
                   </div>
-                  <img className={styles.image78}></img>
+                  <img
+                    className={styles.image78}
+                    alt="image"
+                    loading="lazy"
+                  ></img>
                 </div>
                 <div className={styles.divBlock68}>
                   <div className={styles.divBlock69}>
-                    <img className={styles.image65} src={profilePic1}></img>
+                    <img
+                      className={styles.image65}
+                      alt="image"
+                      loading="lazy"
+                      src={profilePic1}
+                    ></img>
                     <h5 className={styles.heading12}>Neerthigan Sivananthan</h5>
                   </div>
                   <div>
@@ -356,13 +487,22 @@ const Reviews = () => {
                       Faraz's communication, dedication and availability.
                     </p>
                   </div>
-                  <img className={styles.image78}></img>
+                  <img
+                    className={styles.image78}
+                    alt="image"
+                    loading="lazy"
+                  ></img>
                 </div>
               </div>
               <div>
                 <div className={styles.divBlock68}>
                   <div className={styles.divBlock69}>
-                    <img className={styles.image65} src={profilePic1}></img>
+                    <img
+                      className={styles.image65}
+                      alt="image"
+                      loading="lazy"
+                      src={profilePic1}
+                    ></img>
                     <h5 className={styles.heading12}>Neerthigan Sivananthan</h5>
                   </div>
                   <div>
@@ -372,11 +512,20 @@ const Reviews = () => {
                       Faraz's communication, dedication and availability.
                     </p>
                   </div>
-                  <img className={styles.image78}></img>
+                  <img
+                    className={styles.image78}
+                    alt="image"
+                    loading="lazy"
+                  ></img>
                 </div>
                 <div className={styles.divBlock68}>
                   <div className={styles.divBlock69}>
-                    <img className={styles.image65} src={profilePic1}></img>
+                    <img
+                      className={styles.image65}
+                      alt="image"
+                      loading="lazy"
+                      src={profilePic1}
+                    ></img>
                     <h5 className={styles.heading12}>Neerthigan Sivananthan</h5>
                   </div>
                   <div>
@@ -386,11 +535,20 @@ const Reviews = () => {
                       Faraz's communication, dedication and availability.
                     </p>
                   </div>
-                  <img className={styles.image78}></img>
+                  <img
+                    className={styles.image78}
+                    alt="image"
+                    loading="lazy"
+                  ></img>
                 </div>
                 <div className={styles.divBlock68}>
                   <div className={styles.divBlock69}>
-                    <img className={styles.image65} src={profilePic1}></img>
+                    <img
+                      className={styles.image65}
+                      alt="image"
+                      loading="lazy"
+                      src={profilePic1}
+                    ></img>
                     <h5 className={styles.heading12}>Neerthigan Sivananthan</h5>
                   </div>
                   <div>
@@ -400,7 +558,11 @@ const Reviews = () => {
                       Faraz's communication, dedication and availability.
                     </p>
                   </div>
-                  <img className={styles.image78}></img>
+                  <img
+                    className={styles.image78}
+                    alt="image"
+                    loading="lazy"
+                  ></img>
                 </div>
               </div>
             </div>
@@ -411,7 +573,12 @@ const Reviews = () => {
               <div>
                 <div className={styles.divBlock68}>
                   <div className={styles.divBlock69}>
-                    <img className={styles.image65} src={profilePic1}></img>
+                    <img
+                      className={styles.image65}
+                      alt="image"
+                      loading="lazy"
+                      src={profilePic1}
+                    ></img>
                     <h5 className={styles.heading12}>Neerthigan Sivananthan</h5>
                   </div>
                   <div>
@@ -421,11 +588,20 @@ const Reviews = () => {
                       Faraz's communication, dedication and availability.
                     </p>
                   </div>
-                  <img className={styles.image78}></img>
+                  <img
+                    className={styles.image78}
+                    alt="image"
+                    loading="lazy"
+                  ></img>
                 </div>
                 <div className={styles.divBlock68}>
                   <div className={styles.divBlock69}>
-                    <img className={styles.image65} src={profilePic1}></img>
+                    <img
+                      className={styles.image65}
+                      alt="image"
+                      loading="lazy"
+                      src={profilePic1}
+                    ></img>
                     <h5 className={styles.heading12}>Neerthigan Sivananthan</h5>
                   </div>
                   <div>
@@ -435,11 +611,20 @@ const Reviews = () => {
                       Faraz's communication, dedication and availability.
                     </p>
                   </div>
-                  <img className={styles.image78}></img>
+                  <img
+                    className={styles.image78}
+                    alt="image"
+                    loading="lazy"
+                  ></img>
                 </div>
                 <div className={styles.divBlock68}>
                   <div className={styles.divBlock69}>
-                    <img className={styles.image65} src={profilePic1}></img>
+                    <img
+                      className={styles.image65}
+                      alt="image"
+                      loading="lazy"
+                      src={profilePic1}
+                    ></img>
                     <h5 className={styles.heading12}>Neerthigan Sivananthan</h5>
                   </div>
                   <div>
@@ -449,13 +634,22 @@ const Reviews = () => {
                       Faraz's communication, dedication and availability.
                     </p>
                   </div>
-                  <img className={styles.image78}></img>
+                  <img
+                    className={styles.image78}
+                    alt="image"
+                    loading="lazy"
+                  ></img>
                 </div>
               </div>
               <div>
                 <div className={styles.divBlock68}>
                   <div className={styles.divBlock69}>
-                    <img className={styles.image65} src={profilePic1}></img>
+                    <img
+                      className={styles.image65}
+                      alt="image"
+                      loading="lazy"
+                      src={profilePic1}
+                    ></img>
                     <h5 className={styles.heading12}>Neerthigan Sivananthan</h5>
                   </div>
                   <div>
@@ -465,11 +659,20 @@ const Reviews = () => {
                       Faraz's communication, dedication and availability.
                     </p>
                   </div>
-                  <img className={styles.image78}></img>
+                  <img
+                    className={styles.image78}
+                    alt="image"
+                    loading="lazy"
+                  ></img>
                 </div>
                 <div className={styles.divBlock68}>
                   <div className={styles.divBlock69}>
-                    <img className={styles.image65} src={profilePic1}></img>
+                    <img
+                      className={styles.image65}
+                      alt="image"
+                      loading="lazy"
+                      src={profilePic1}
+                    ></img>
                     <h5 className={styles.heading12}>Neerthigan Sivananthan</h5>
                   </div>
                   <div>
@@ -479,11 +682,20 @@ const Reviews = () => {
                       Faraz's communication, dedication and availability.
                     </p>
                   </div>
-                  <img className={styles.image78}></img>
+                  <img
+                    className={styles.image78}
+                    alt="image"
+                    loading="lazy"
+                  ></img>
                 </div>
                 <div className={styles.divBlock68}>
                   <div className={styles.divBlock69}>
-                    <img className={styles.image65} src={profilePic1}></img>
+                    <img
+                      className={styles.image65}
+                      alt="image"
+                      loading="lazy"
+                      src={profilePic1}
+                    ></img>
                     <h5 className={styles.heading12}>Neerthigan Sivananthan</h5>
                   </div>
                   <div>
@@ -493,7 +705,11 @@ const Reviews = () => {
                       Faraz's communication, dedication and availability.
                     </p>
                   </div>
-                  <img className={styles.image78}></img>
+                  <img
+                    className={styles.image78}
+                    alt="image"
+                    loading="lazy"
+                  ></img>
                 </div>
               </div>
             </div>

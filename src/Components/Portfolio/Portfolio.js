@@ -158,36 +158,76 @@ const Portfolio = () => {
             <div className={`${styles.div21}`}>
               <div className={`${styles.div19}`}>
                 <div className={styles.div20}>
-                  <img src={portfolioImageTalkAsia}></img>
+                  <img
+                    src={portfolioImageTalkAsia}
+                    loading="lazy"
+                    alt="image"
+                  ></img>
                 </div>
                 <div className={styles.div20}>
-                  <img src={portfolioImageGuriEnterprise}></img>
+                  <img
+                    src={portfolioImageGuriEnterprise}
+                    loading="lazy"
+                    alt="image"
+                  ></img>
                 </div>
                 <div className={styles.div20}>
-                  <img src={portfolioImageLeasabites}></img>
+                  <img
+                    src={portfolioImageLeasabites}
+                    loading="lazy"
+                    alt="image"
+                  ></img>
                 </div>
                 <div className={styles.div20}>
-                  <img src={portfolioImageSsafLogistics}></img>
+                  <img
+                    src={portfolioImageSsafLogistics}
+                    loading="lazy"
+                    alt="image"
+                  ></img>
                 </div>
                 <div className={styles.div20}>
-                  <img src={portfolioImageSsafLogistics}></img>
+                  <img
+                    src={portfolioImageSsafLogistics}
+                    loading="lazy"
+                    alt="image"
+                  ></img>
                 </div>
               </div>
               <div className={`${styles.div19}`}>
                 <div className={styles.div20}>
-                  <img src={portfolioImageTalkAsia}></img>
+                  <img
+                    src={portfolioImageTalkAsia}
+                    loading="lazy"
+                    alt="image"
+                  ></img>
                 </div>
                 <div className={styles.div20}>
-                  <img src={portfolioImageGuriEnterprise}></img>
+                  <img
+                    src={portfolioImageGuriEnterprise}
+                    loading="lazy"
+                    alt="image"
+                  ></img>
                 </div>
                 <div className={styles.div20}>
-                  <img src={portfolioImageLeasabites}></img>
+                  <img
+                    src={portfolioImageLeasabites}
+                    loading="lazy"
+                    alt="image"
+                  ></img>
                 </div>
                 <div className={styles.div20}>
-                  <img src={portfolioImageSsafLogistics}></img>
+                  <img
+                    src={portfolioImageSsafLogistics}
+                    loading="lazy"
+                    alt="image"
+                  ></img>
                 </div>
                 <div className={styles.div20}>
-                  <img src={portfolioImageSsafLogistics}></img>
+                  <img
+                    src={portfolioImageSsafLogistics}
+                    loading="lazy"
+                    alt="image"
+                  ></img>
                 </div>
               </div>
             </div>
@@ -204,36 +244,36 @@ const Portfolio = () => {
             <div className={`${styles.div21}`}>
               <div className={`${styles.div19}`}>
                 <div className={styles.div20}>
-                  <img src={brainSoulsLogo}></img>
+                  <img src={brainSoulsLogo} loading="lazy" alt="image"></img>
                 </div>
                 <div className={styles.div20}>
-                  <img src={ktechLogo}></img>
+                  <img src={ktechLogo} loading="lazy" alt="image"></img>
                 </div>
                 <div className={styles.div20}>
-                  <img src={iStoreLogo}></img>
+                  <img src={iStoreLogo} loading="lazy" alt="image"></img>
                 </div>
                 <div className={styles.div20}>
-                  <img src={buffeloLogo}></img>
+                  <img src={buffeloLogo} loading="lazy" alt="image"></img>
                 </div>
                 <div className={styles.div20}>
-                  <img src={iStoreLogo}></img>
+                  <img src={iStoreLogo} loading="lazy" alt="image"></img>
                 </div>
               </div>
               <div className={`${styles.div19}`}>
                 <div className={styles.div20}>
-                  <img src={brainSoulsLogo}></img>
+                  <img src={brainSoulsLogo} loading="lazy" alt="image"></img>
                 </div>
                 <div className={styles.div20}>
-                  <img src={ktechLogo}></img>
+                  <img src={ktechLogo} loading="lazy" alt="image"></img>
                 </div>
                 <div className={styles.div20}>
-                  <img src={iStoreLogo}></img>
+                  <img src={iStoreLogo} loading="lazy" alt="image"></img>
                 </div>
                 <div className={styles.div20}>
-                  <img src={buffeloLogo}></img>
+                  <img src={buffeloLogo} loading="lazy" alt="image"></img>
                 </div>
                 <div className={styles.div20}>
-                  <img src={iStoreLogo}></img>
+                  <img src={iStoreLogo} loading="lazy" alt="image"></img>
                 </div>
               </div>
             </div>
@@ -250,36 +290,60 @@ const Portfolio = () => {
             <div className={`${styles.div21}`}>
               <div className={`${styles.div19}`}>
                 <div className={styles.div20}>
-                  <img src={championMotorsportUxUi}></img>
+                  <img
+                    src={championMotorsportUxUi}
+                    loading="lazy"
+                    alt="image"
+                  ></img>
                 </div>
                 <div className={styles.div20}>
-                  <img src={genesisInnovationUxUi}></img>
+                  <img
+                    src={genesisInnovationUxUi}
+                    loading="lazy"
+                    alt="image"
+                  ></img>
                 </div>
                 <div className={styles.div20}>
-                  <img src={nutradoraUxUi}></img>
+                  <img src={nutradoraUxUi} loading="lazy" alt="image"></img>
                 </div>
                 <div className={styles.div20}>
-                  <img src={jack2MediaUxUi}></img>
+                  <img src={jack2MediaUxUi} loading="lazy" alt="image"></img>
                 </div>
                 <div className={styles.div20}>
-                  <img src={genesisInnovationUxUi}></img>
+                  <img
+                    src={genesisInnovationUxUi}
+                    loading="lazy"
+                    alt="image"
+                  ></img>
                 </div>
               </div>
               <div className={`${styles.div19}`}>
                 <div className={styles.div20}>
-                  <img src={championMotorsportUxUi}></img>
+                  <img
+                    src={championMotorsportUxUi}
+                    loading="lazy"
+                    alt="image"
+                  ></img>
                 </div>
                 <div className={styles.div20}>
-                  <img src={genesisInnovationUxUi}></img>
+                  <img
+                    src={genesisInnovationUxUi}
+                    loading="lazy"
+                    alt="image"
+                  ></img>
                 </div>
                 <div className={styles.div20}>
-                  <img src={nutradoraUxUi}></img>
+                  <img src={nutradoraUxUi} loading="lazy" alt="image"></img>
                 </div>
                 <div className={styles.div20}>
-                  <img src={jack2MediaUxUi}></img>
+                  <img src={jack2MediaUxUi} loading="lazy" alt="image"></img>
                 </div>
                 <div className={styles.div20}>
-                  <img src={genesisInnovationUxUi}></img>
+                  <img
+                    src={genesisInnovationUxUi}
+                    loading="lazy"
+                    alt="image"
+                  ></img>
                 </div>
               </div>
             </div>

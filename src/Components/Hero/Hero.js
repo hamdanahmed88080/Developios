@@ -104,47 +104,47 @@ const Hero = () => {
     triggerOnce: true,
   });
 
-  var reviewsObject = {
-    items: [
-      {
-        url: "https://youtube.com/shorts/PflSd3u6U_Q",
-        originalUrl: "https://youtube.com/shorts/PflSd3u6U_Q",
-        width: 940,
-        height: 705,
-        thumbnailUrl: "https://i.ytimg.com/vi/PflSd3u6U_Q/hq2.jpg",
-        html: '<iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FPflSd3u6U_Q%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fshorts%2FPflSd3u6U_Q%3Fundefined&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FPflSd3u6U_Q%2Fhq2.jpg&type=text%2Fhtml&schema=youtube" width="940" height="705" scrolling="no" title="YouTube embed" frameborder="0" allow="autoplay; fullscreen; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe>',
-        type: "video",
-      },
-      {
-        url: "https://youtube.com/shorts/ulRQ9ttQVEs?feature=share",
-        originalUrl: "https://youtube.com/shorts/ulRQ9ttQVEs?feature=share",
-        width: 940,
-        height: 705,
-        thumbnailUrl: "https://i.ytimg.com/vi/ulRQ9ttQVEs/hq2.jpg",
-        html: '<iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FulRQ9ttQVEs%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fshorts%2FulRQ9ttQVEs%3Ffeature%3Dshare&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FulRQ9ttQVEs%2Fhq2.jpg&type=text%2Fhtml&schema=youtube" width="940" height="705" scrolling="no" title="YouTube embed" frameborder="0" allow="autoplay; fullscreen; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe>',
-        type: "video",
-      },
-      {
-        url: "https://youtube.com/shorts/CABmxLyMIqY",
-        originalUrl: "https://youtube.com/shorts/CABmxLyMIqY",
-        width: 940,
-        height: 705,
-        thumbnailUrl: "https://i.ytimg.com/vi/CABmxLyMIqY/hq2.jpg",
-        html: '<iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FCABmxLyMIqY%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fshorts%2FCABmxLyMIqY%3Fundefined&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FCABmxLyMIqY%2Fhq2.jpg&type=text%2Fhtml&schema=youtube" width="940" height="705" scrolling="no" title="YouTube embed" frameborder="0" allow="autoplay; fullscreen; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe>',
-        type: "video",
-      },
-      {
-        url: "https://www.youtube.com/shorts/hYdGH3ZaP8E",
-        originalUrl: "https://www.youtube.com/shorts/hYdGH3ZaP8E",
-        width: 940,
-        height: 705,
-        thumbnailUrl: "https://i.ytimg.com/vi/hYdGH3ZaP8E/hq2.jpg",
-        html: '<iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FhYdGH3ZaP8E%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fshorts%2FhYdGH3ZaP8E%3Fundefined&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FhYdGH3ZaP8E%2Fhq2.jpg&type=text%2Fhtml&schema=youtube" width="940" height="705" scrolling="no" title="YouTube embed" frameborder="0" allow="autoplay; fullscreen; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe>',
-        type: "video",
-      },
-    ],
-    group: "",
-  };
+  // var reviewsObject = {
+  //   items: [
+  //     {
+  //       url: "https://youtube.com/shorts/PflSd3u6U_Q",
+  //       originalUrl: "https://youtube.com/shorts/PflSd3u6U_Q",
+  //       width: 940,
+  //       height: 705,
+  //       thumbnailUrl: "https://i.ytimg.com/vi/PflSd3u6U_Q/hq2.jpg",
+  //       html: '<iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FPflSd3u6U_Q%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fshorts%2FPflSd3u6U_Q%3Fundefined&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FPflSd3u6U_Q%2Fhq2.jpg&type=text%2Fhtml&schema=youtube" width="940" height="705" scrolling="no" title="YouTube embed" frameborder="0" allow="autoplay; fullscreen; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe>',
+  //       type: "video",
+  //     },
+  //     {
+  //       url: "https://youtube.com/shorts/ulRQ9ttQVEs?feature=share",
+  //       originalUrl: "https://youtube.com/shorts/ulRQ9ttQVEs?feature=share",
+  //       width: 940,
+  //       height: 705,
+  //       thumbnailUrl: "https://i.ytimg.com/vi/ulRQ9ttQVEs/hq2.jpg",
+  //       html: '<iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FulRQ9ttQVEs%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fshorts%2FulRQ9ttQVEs%3Ffeature%3Dshare&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FulRQ9ttQVEs%2Fhq2.jpg&type=text%2Fhtml&schema=youtube" width="940" height="705" scrolling="no" title="YouTube embed" frameborder="0" allow="autoplay; fullscreen; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe>',
+  //       type: "video",
+  //     },
+  //     {
+  //       url: "https://youtube.com/shorts/CABmxLyMIqY",
+  //       originalUrl: "https://youtube.com/shorts/CABmxLyMIqY",
+  //       width: 940,
+  //       height: 705,
+  //       thumbnailUrl: "https://i.ytimg.com/vi/CABmxLyMIqY/hq2.jpg",
+  //       html: '<iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FCABmxLyMIqY%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fshorts%2FCABmxLyMIqY%3Fundefined&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FCABmxLyMIqY%2Fhq2.jpg&type=text%2Fhtml&schema=youtube" width="940" height="705" scrolling="no" title="YouTube embed" frameborder="0" allow="autoplay; fullscreen; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe>',
+  //       type: "video",
+  //     },
+  //     {
+  //       url: "https://www.youtube.com/shorts/hYdGH3ZaP8E",
+  //       originalUrl: "https://www.youtube.com/shorts/hYdGH3ZaP8E",
+  //       width: 940,
+  //       height: 705,
+  //       thumbnailUrl: "https://i.ytimg.com/vi/hYdGH3ZaP8E/hq2.jpg",
+  //       html: '<iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FhYdGH3ZaP8E%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fshorts%2FhYdGH3ZaP8E%3Fundefined&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FhYdGH3ZaP8E%2Fhq2.jpg&type=text%2Fhtml&schema=youtube" width="940" height="705" scrolling="no" title="YouTube embed" frameborder="0" allow="autoplay; fullscreen; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe>',
+  //       type: "video",
+  //     },
+  //   ],
+  //   group: "",
+  // };
 
   useEffect(() => {
     var script = document.createElement("script");
@@ -288,8 +288,8 @@ const Hero = () => {
               className={`${styles.heroSocialIcons} ${styles.socialIconNew}`}
             >
               <i
-                className="fa fa-youtube-play"
-                class="fa fa-linkedin"
+                // className="fa fa-youtube-play"
+                className="fa fa-linkedin"
                 style={{ fontSize: "22px" }}
               ></i>
             </div>{" "}
@@ -299,8 +299,41 @@ const Hero = () => {
               className={`${styles.heroSocialIcons} ${styles.socialIconNew}`}
             >
               <i
+                // className="fa fa-youtube-play"
+                className="fa fa-instagram"
+                style={{ fontSize: "22px" }}
+              ></i>
+            </div>
+          </a>
+          <a href="#">
+            <div
+              className={`${styles.heroSocialIcons} ${styles.socialIconNew}`}
+            >
+              <i
+                // className="fa fa-youtube-play"
+                className="fa fa-facebook-f "
+                style={{ fontSize: "22px" }}
+              ></i>
+            </div>
+          </a>
+          <a href="#">
+            <div
+              className={`${styles.heroSocialIcons} ${styles.socialIconNew}`}
+            >
+              <i
+                // className="fa fa-youtube-play"
+                className="fa fa-twitter "
+                style={{ fontSize: "22px" }}
+              ></i>
+            </div>
+          </a>
+          <a href="#">
+            <div
+              className={`${styles.heroSocialIcons} ${styles.socialIconNew}`}
+            >
+              <i
+                // className="fa fa-youtube-play"
                 className="fa fa-youtube-play"
-                class="fa fa-instagram	"
                 style={{ fontSize: "22px" }}
               ></i>
             </div>
@@ -310,8 +343,8 @@ const Hero = () => {
               className={`${styles.heroSocialIcons} ${styles.socialIconNew}`}
             >
               <i
-                className="fa fa-youtube-play"
-                class="fa fa-facebook-f "
+                // className="fa fa-behance"
+                className="fa fa-behance "
                 style={{ fontSize: "22px" }}
               ></i>
             </div>
@@ -321,41 +354,8 @@ const Hero = () => {
               className={`${styles.heroSocialIcons} ${styles.socialIconNew}`}
             >
               <i
-                className="fa fa-youtube-play"
-                class="fa fa-twitter "
-                style={{ fontSize: "22px" }}
-              ></i>
-            </div>
-          </a>
-          <a href="#">
-            <div
-              className={`${styles.heroSocialIcons} ${styles.socialIconNew}`}
-            >
-              <i
-                className="fa fa-youtube-play"
-                class="fa fa-youtube-play"
-                style={{ fontSize: "22px" }}
-              ></i>
-            </div>
-          </a>
-          <a href="#">
-            <div
-              className={`${styles.heroSocialIcons} ${styles.socialIconNew}`}
-            >
-              <i
-                className="fa fa-behance"
-                class="fa fa-behance "
-                style={{ fontSize: "22px" }}
-              ></i>
-            </div>
-          </a>
-          <a href="#">
-            <div
-              className={`${styles.heroSocialIcons} ${styles.socialIconNew}`}
-            >
-              <i
+                // className="fa fa-github"
                 className="fa fa-github"
-                class="fa fa-github"
                 style={{ fontSize: "22px" }}
               ></i>
             </div>
